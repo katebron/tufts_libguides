@@ -70,27 +70,28 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 24, ../sass/styles.scss */
 body {
   font-family: sans-serif;
+  line-height: 1.2;
 }
 
-/* line 28, ../sass/styles.scss */
+/* line 29, ../sass/styles.scss */
 #s-lg-guide-main {
   padding-top: 0px;
 }
 
-/* line 32, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
 #tufts_header {
   background-color: #3172AE;
   color: white;
   margin: -1em -1em 0 -1em;
   padding: 2em 2em 0.25em 3em;
 }
-/* line 37, ../sass/styles.scss */
+/* line 38, ../sass/styles.scss */
 #tufts_header h1 {
   font-size: 30px;
   margin-bottom: 1em;
 }
 
-/* line 42, ../sass/styles.scss */
+/* line 43, ../sass/styles.scss */
 #tufts_header {
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF3172AE', endColorstr='#FF6699CC');
@@ -101,33 +102,33 @@ body {
   background-image: linear-gradient(-90deg, #6699cc, #3172ae);
 }
 
-/* line 46, ../sass/styles.scss */
+/* line 47, ../sass/styles.scss */
 #tufts_header a {
   font-family: sans-serif;
   color: white;
 }
 
-/* line 51, ../sass/styles.scss */
+/* line 52, ../sass/styles.scss */
 #tufts_links ul {
   margin-left: 0;
   padding-left: 0;
 }
-/* line 54, ../sass/styles.scss */
+/* line 55, ../sass/styles.scss */
 #tufts_links ul li {
   display: inline;
   list-style-type: none !important;
   text-decoration: none !important;
   padding-right: 0em;
 }
-/* line 60, ../sass/styles.scss */
+/* line 61, ../sass/styles.scss */
 #tufts_links ul li:after {
   content: ' | ';
 }
-/* line 63, ../sass/styles.scss */
+/* line 64, ../sass/styles.scss */
 #tufts_links ul li:first-of-type {
   padding-left: 0.5em;
 }
-/* line 66, ../sass/styles.scss */
+/* line 67, ../sass/styles.scss */
 #tufts_links ul li:last-of-type:after {
   content: '';
 }
