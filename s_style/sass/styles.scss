@@ -1,0 +1,67 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+// =============================================================================
+// Partials to be shared with all .scss files.
+// =============================================================================
+
+// Add Compass' IE and vendor prefix support variables.
+@import "compass/support";
+// Better than Drupal's clearfix.
+@import "compass/utilities/general/clearfix";
+// See http://compass-style.org/help/tutorials/spriting/
+@import "compass/utilities/sprites";
+// Use one CSS3 mixin instead of multiple vendor prefixes.
+@import "compass/typography/lists";
+//KB added this to work with lists.
+@import "compass/css3";
+@import "init";
+
+
+//header
+#s-lg-guide-main {
+  padding-top: 0px;
+}
+
+#tufts_header{
+  background-color: #3172AE;
+  color: white;
+  margin: -1em -1em 0 -1em;
+  padding: 4em 4em 0 4em;
+  h1{
+    @include adjust-font-size-to (30px);
+  }
+}
+#tufts_header{
+  @include filter-gradient($tufts-info-blue, $tufts-classic, 'horizontal');
+  @include background-image(linear-gradient(-90deg, $tufts-classic, $tufts-info-blue)); 
+}
+#tufts_header a{
+font-family: sans-serif;
+color: white;
+}
+#tufts_links{
+  ul{
+    margin-left:0;
+    padding-left: 0;
+    li{
+       display: inline;
+       list-style-type: none !important;
+       text-decoration: none !important;
+       padding-right: 0em;
+    }
+    li:after{
+      content: ' | ';
+    }
+    li:first-of-type{
+      padding-left: 0.5em;
+    }
+    li:last-of-type:after{
+      content:'';
+    }
+  }
+}
