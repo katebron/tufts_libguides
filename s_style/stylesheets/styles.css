@@ -133,3 +133,8 @@ body {
 #tufts_links ul li:last-of-type:after {
   content: '';
 }
+
+/* line 73, ../sass/styles.scss */
+p {
+  padding: 0.5em 0.25em;
+}
