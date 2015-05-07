@@ -24,7 +24,7 @@
 body{
 	font-family: sans-serif;
 	line-height: 1.2;
-  background-color: #E2E2E2;
+  background-color: #F5f5f5;
 }
 //header
 #s-lg-guide-main {
@@ -135,7 +135,7 @@ form{
   padding: 0.25em 0.5em 1em 0.5em;
 }
 //exception for search box
-.s-lg-guide-search-box{
+#s-lg-guide-search-box{
   form{
     background: transparent;
   }

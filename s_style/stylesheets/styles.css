@@ -71,7 +71,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   font-family: sans-serif;
   line-height: 1.2;
-  background-color: #E2E2E2;
+  background-color: #F5f5f5;
 }
 
 /* line 30, ../sass/styles.scss */
@@ -208,6 +208,6 @@ form {
 }
 
 /* line 139, ../sass/styles.scss */
-.s-lg-guide-search-box form {
+#s-lg-guide-search-box form {
   background: transparent;
 }
