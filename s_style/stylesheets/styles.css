@@ -138,3 +138,54 @@ body {
 p {
   padding: 0.5em 0.25em;
 }
+
+/************
+* TABLES
+************/
+/* line 79, ../sass/styles.scss */
+table {
+  border: thin solid #CFB76D;
+  background: #FFFFFF;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+}
+/* line 85, ../sass/styles.scss */
+table th {
+  font-weight: bold;
+  background: #E8DCB9;
+  text-align: center;
+  vertical-align: bottom;
+  padding: 2px;
+}
+/* line 93, ../sass/styles.scss */
+table td {
+  background: #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+  padding: 4px;
+  border-top: 1px solid #E8DCB9;
+  font-size: small;
+  font-weight: normal;
+  border-right: 1px dotted #E8DCB9;
+}
+/* line 103, ../sass/styles.scss */
+table .rowhead {
+  font-weight: bold;
+  background: #F8F4E9;
+  text-align: left;
+  padding-left: 4px;
+  font-size: small;
+}
+/* line 111, ../sass/styles.scss */
+table tr.alt {
+  background-color: #c4e0f5;
+}
+/* line 114, ../sass/styles.scss */
+table .beigeLeft {
+  text-align: left;
+}
+/* line 116, ../sass/styles.scss */
+table .beigeLeft tr.altRow td {
+  background-color: #e3ecf6;
+}
