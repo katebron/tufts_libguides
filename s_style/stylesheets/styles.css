@@ -196,3 +196,12 @@ table .beigeLeft tr.altRow td {
 table .beigeLeft td {
   text-align: left;
 }
+
+/****
+* FORMS
+******/
+/* line 132, ../sass/styles.scss */
+form {
+  background-color: #ee;
+  padding: 0.25em 0.5em 1em 0.5em;
+}
