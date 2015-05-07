@@ -189,3 +189,7 @@ table .beigeLeft {
 table .beigeLeft tr.altRow td {
   background-color: #e3ecf6;
 }
+/* line 119, ../sass/styles.scss */
+table .beigeLeft td {
+  text-align: left;
+}
