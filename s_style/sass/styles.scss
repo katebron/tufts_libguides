@@ -134,3 +134,9 @@ form{
   background-color: $form-gray;
   padding: 0.25em 0.5em 1em 0.5em;
 }
+//exception for search box
+.s-lg-guide-search-box{
+  form{
+    background: transparent;
+  }
+}
