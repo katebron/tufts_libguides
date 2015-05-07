@@ -24,7 +24,7 @@
 body{
 	font-family: sans-serif;
 	line-height: 1.2;
-  background-color: #F5f5f5;
+  background-color: $background-gray;
 }
 //header
 #s-lg-guide-main {
@@ -32,10 +32,12 @@ body{
 }
 
 #tufts_header{
-  background-color: #3172AE;
+  background-color: $tufts-info-blue;
   color: white;
-  margin: -1em -1em 0 -1em;
-  padding: 2em 2em 0.25em 3.2em;
+  @media all and (min-width: 570px){
+    margin: -1em -1em 0 -1em;
+    padding: 2em 2em 0.25em 3.2em;
+  }
   h1{
     font-size: 30px;
     margin-bottom: 1em;
@@ -73,6 +75,16 @@ color: white;
 }
 p{
  padding: 0.5em 0.25em;	
+}
+h2{
+  .s-lib-box-title{
+    border-bottom: none !important;
+  }
+}  
+#s-lg-guide-search-box{
+  form{
+    background: transparent;
+  }
 }
 /************
 * TABLES

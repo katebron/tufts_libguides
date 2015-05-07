@@ -71,7 +71,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   font-family: sans-serif;
   line-height: 1.2;
-  background-color: #F5f5f5;
+  background-color: #f5f5f5;
 }
 
 /* line 30, ../sass/styles.scss */
@@ -83,17 +83,22 @@ body {
 #tufts_header {
   background-color: #3172AE;
   color: white;
-  margin: -1em -1em 0 -1em;
-  padding: 2em 2em 0.25em 3.2em;
 }
-/* line 39, ../sass/styles.scss */
+@media all and (min-width: 570px) {
+  /* line 34, ../sass/styles.scss */
+  #tufts_header {
+    margin: -1em -1em 0 -1em;
+    padding: 2em 2em 0.25em 3.2em;
+  }
+}
+/* line 41, ../sass/styles.scss */
 #tufts_header h1 {
   font-size: 30px;
   margin-bottom: 1em;
   text-shadow: 0px 0px 1px #aaa;
 }
 
-/* line 45, ../sass/styles.scss */
+/* line 47, ../sass/styles.scss */
 #tufts_header {
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF3172AE', endColorstr='#FF6699CC');
@@ -104,46 +109,56 @@ body {
   background-image: linear-gradient(-90deg, #6699cc, #3172ae);
 }
 
-/* line 49, ../sass/styles.scss */
+/* line 51, ../sass/styles.scss */
 #tufts_header a {
   font-family: sans-serif;
   color: white;
 }
 
-/* line 54, ../sass/styles.scss */
+/* line 56, ../sass/styles.scss */
 #tufts_links ul {
   margin-left: 0;
   padding-left: 0;
 }
-/* line 57, ../sass/styles.scss */
+/* line 59, ../sass/styles.scss */
 #tufts_links ul li {
   display: inline;
   list-style-type: none !important;
   text-decoration: none !important;
   padding-right: 0em;
 }
-/* line 63, ../sass/styles.scss */
+/* line 65, ../sass/styles.scss */
 #tufts_links ul li:after {
   content: ' | ';
 }
-/* line 66, ../sass/styles.scss */
+/* line 68, ../sass/styles.scss */
 #tufts_links ul li:first-of-type {
   padding-left: 0.5em;
 }
-/* line 69, ../sass/styles.scss */
+/* line 71, ../sass/styles.scss */
 #tufts_links ul li:last-of-type:after {
   content: '';
 }
 
-/* line 74, ../sass/styles.scss */
+/* line 76, ../sass/styles.scss */
 p {
   padding: 0.5em 0.25em;
+}
+
+/* line 80, ../sass/styles.scss */
+h2 .s-lib-box-title {
+  border-bottom: none !important;
+}
+
+/* line 85, ../sass/styles.scss */
+#s-lg-guide-search-box form {
+  background: transparent;
 }
 
 /************
 * TABLES
 ************/
-/* line 80, ../sass/styles.scss */
+/* line 92, ../sass/styles.scss */
 table {
   border: thin solid #CFB76D;
   background: #FFFFFF;
@@ -151,7 +166,7 @@ table {
   vertical-align: top;
   width: 100%;
 }
-/* line 86, ../sass/styles.scss */
+/* line 98, ../sass/styles.scss */
 table th {
   font-weight: bold;
   background: #E8DCB9;
@@ -159,7 +174,7 @@ table th {
   vertical-align: bottom;
   padding: 2px;
 }
-/* line 94, ../sass/styles.scss */
+/* line 106, ../sass/styles.scss */
 table td {
   background: #FFFFFF;
   vertical-align: middle;
@@ -169,7 +184,7 @@ table td {
   font-weight: normal;
   border-right: 1px dotted #E8DCB9;
 }
-/* line 103, ../sass/styles.scss */
+/* line 115, ../sass/styles.scss */
 table .rowhead {
   font-weight: bold;
   background: #F8F4E9;
@@ -177,23 +192,23 @@ table .rowhead {
   padding-left: 4px;
   font-size: small;
 }
-/* line 111, ../sass/styles.scss */
+/* line 123, ../sass/styles.scss */
 table tr.alt {
   background-color: #c4e0f5;
 }
-/* line 116, ../sass/styles.scss */
+/* line 128, ../sass/styles.scss */
 table .beige td {
   text-align: center;
 }
-/* line 120, ../sass/styles.scss */
+/* line 132, ../sass/styles.scss */
 table .beigeLeft {
   text-align: left;
 }
-/* line 122, ../sass/styles.scss */
+/* line 134, ../sass/styles.scss */
 table .beigeLeft tr.altRow td {
   background-color: #e3ecf6;
 }
-/* line 125, ../sass/styles.scss */
+/* line 137, ../sass/styles.scss */
 table .beigeLeft td {
   text-align: left;
 }
@@ -201,13 +216,13 @@ table .beigeLeft td {
 /****
 * FORMS
 ******/
-/* line 133, ../sass/styles.scss */
+/* line 145, ../sass/styles.scss */
 form {
   background-color: #eee;
   padding: 0.25em 0.5em 1em 0.5em;
 }
 
-/* line 139, ../sass/styles.scss */
+/* line 151, ../sass/styles.scss */
 #s-lg-guide-search-box form {
   background: transparent;
 }
