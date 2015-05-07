@@ -161,7 +161,6 @@ table th {
 /* line 93, ../sass/styles.scss */
 table td {
   background: #FFFFFF;
-  text-align: center;
   vertical-align: middle;
   padding: 4px;
   border-top: 1px solid #E8DCB9;
@@ -169,7 +168,7 @@ table td {
   font-weight: normal;
   border-right: 1px dotted #E8DCB9;
 }
-/* line 103, ../sass/styles.scss */
+/* line 102, ../sass/styles.scss */
 table .rowhead {
   font-weight: bold;
   background: #F8F4E9;
@@ -177,23 +176,23 @@ table .rowhead {
   padding-left: 4px;
   font-size: small;
 }
-/* line 111, ../sass/styles.scss */
+/* line 110, ../sass/styles.scss */
 table tr.alt {
   background-color: #c4e0f5;
 }
-/* line 116, ../sass/styles.scss */
+/* line 115, ../sass/styles.scss */
 table .beige td {
   text-align: center;
 }
-/* line 120, ../sass/styles.scss */
+/* line 119, ../sass/styles.scss */
 table .beigeLeft {
   text-align: left;
 }
-/* line 122, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
 table .beigeLeft tr.altRow td {
   background-color: #e3ecf6;
 }
-/* line 125, ../sass/styles.scss */
+/* line 124, ../sass/styles.scss */
 table .beigeLeft td {
   text-align: left;
 }
