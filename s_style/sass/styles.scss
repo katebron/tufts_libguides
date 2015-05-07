@@ -111,6 +111,12 @@ table{
   tr.alt {
     background-color: #c4e0f5;
   }
+  //TODO - change css with LG from beige/beigeLeft to center/left - text-align the only difference
+  .beige{
+    td{
+      text-align:center;
+    }
+  }
   .beigeLeft { 
     text-align: left;
     tr.altRow td {

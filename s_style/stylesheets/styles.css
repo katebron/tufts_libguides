@@ -181,15 +181,19 @@ table .rowhead {
 table tr.alt {
   background-color: #c4e0f5;
 }
-/* line 114, ../sass/styles.scss */
+/* line 116, ../sass/styles.scss */
+table .beige td {
+  text-align: center;
+}
+/* line 120, ../sass/styles.scss */
 table .beigeLeft {
   text-align: left;
 }
-/* line 116, ../sass/styles.scss */
+/* line 122, ../sass/styles.scss */
 table .beigeLeft tr.altRow td {
   background-color: #e3ecf6;
 }
-/* line 119, ../sass/styles.scss */
+/* line 125, ../sass/styles.scss */
 table .beigeLeft td {
   text-align: left;
 }
