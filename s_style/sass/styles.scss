@@ -30,7 +30,10 @@ body{
 #s-lg-guide-main {
   padding-top: 0px;
 }
-
+//fix - on admin screens, if admin toolbar fixed position, overlaps w/ first bit of page content
+.navbar-fixed-bottom, .navbar-fixed-top{
+  position: relative;
+}
 #tufts_header{
   background-color: $tufts-info-blue;
   color: white;
@@ -76,10 +79,8 @@ color: white;
 p{
  padding: 0.5em 0.25em;	
 }
-h2{
-  .s-lib-box-title{
-    border-bottom: none !important;
-  }
+h2.s-lib-box-title{
+  border-bottom: none !important;
 }  
 #s-lg-guide-search-box{
   form{
