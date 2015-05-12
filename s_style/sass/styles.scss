@@ -30,6 +30,11 @@ body{
 #s-lg-guide-main {
   padding-top: 0px;
 }
+@media all and (max-width: 750px){
+  #s-lg-guide-main, #lg-guide-header{
+    padding: 1em;
+  }
+}
 //fix - on admin screens, if admin toolbar fixed position, overlaps w/ first bit of page content
 .navbar-fixed-bottom, .navbar-fixed-top{
   position: relative;
@@ -158,8 +163,9 @@ form{
     position: relative;
   }
   input[type="text"]{
-    width:90%;
+    width:99%;
     height: 2em;
+    z-index:-1;
   }
   input[type="submit"]{
     position: absolute;
@@ -167,6 +173,12 @@ form{
     top: 0;
     margin-top: 1.2em;
     height: 2em;
+    z-index:5;
+    color: white;
+    background-color:#3172AE;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0;
+    border-radius: 0;
   }
   .more{
     position: absolute;
@@ -186,4 +198,8 @@ form{
      border-radius: 0;
     }
   }
+}
+//FOOTER
+#tufts_footer{
+padding: 2em;
 }
