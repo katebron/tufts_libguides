@@ -85,11 +85,30 @@ p{
  padding: 0.5em 0.25em;	
 }
 h2.s-lib-box-title{
-  border-bottom: none !important;
+  //border-bottom: none !important;
+  font-size: 18px !important;
 }  
 #s-lg-guide-search-box{
   form{
     background: transparent;
+  }
+}
+/************
+* TABS
+**************/
+#s-lg-tabs-container{
+
+  .nav-tabs{
+
+    .active a{
+     color: $light-orange;
+     @include single-text-shadow;
+    }
+
+    a:hover{
+      color: $light-orange !important;
+      @include single-text-shadow;
+    }
   }
 }
 /************
