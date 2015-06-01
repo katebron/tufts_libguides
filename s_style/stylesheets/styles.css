@@ -106,7 +106,7 @@ body {
 #tufts_header h1 {
   font-size: 30px;
   margin-bottom: 1em;
-  text-shadow: 0px 0px 1px #aaa;
+  text-shadow: 0px 0px 1px black;
 }
 
 /* line 55, ../sass/styles.scss */
@@ -172,12 +172,12 @@ h2.s-lib-box-title {
 /* line 103, ../sass/styles.scss */
 #s-lg-tabs-container .nav-tabs .active a {
   color: #ffdb99;
-  text-shadow: 0px 0px 1px #aaa;
+  text-shadow: 0px 0px 1px black;
 }
 /* line 108, ../sass/styles.scss */
 #s-lg-tabs-container .nav-tabs a:hover {
   color: #ffdb99 !important;
-  text-shadow: 0px 0px 1px #aaa;
+  text-shadow: 0px 0px 1px black;
 }
 
 /************
