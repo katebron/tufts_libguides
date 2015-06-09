@@ -25,6 +25,12 @@ body{
 	font-family: sans-serif;
 	line-height: 1.2;
   background-color: $background-gray;
+  ul{
+    list-style-type: disc;
+    li{
+      margin-bottom: 0.5em;
+    }
+  }
 }
 //header
 #s-lg-guide-main {
