@@ -107,6 +107,10 @@ h2.s-lib-box-title{
 
   .nav-tabs{
 
+    ul{
+      margin-left: 0;
+    }
+
     .active a{
      color: $light-orange;
      @include single-text-shadow;
