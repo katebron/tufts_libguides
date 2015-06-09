@@ -178,9 +178,11 @@ h2.s-lib-box-title {
 /************
 * TABS
 **************/
-/* line 110, ../sass/styles.scss */
-#s-lg-tabs-container .nav-tabs ul {
-  margin-left: 0;
+@media all and (min-width: 700px) {
+  /* line 108, ../sass/styles.scss */
+  #s-lg-tabs-container .nav-tabs {
+    margin-left: 0;
+  }
 }
 /* line 114, ../sass/styles.scss */
 #s-lg-tabs-container .nav-tabs .active a {

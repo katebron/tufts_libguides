@@ -107,9 +107,9 @@ h2.s-lib-box-title{
 
   .nav-tabs{
 
-    ul{
+    @media all and (min-width: 700px){
       margin-left: 0;
-    }
+    } 
 
     .active a{
      color: $light-orange;
