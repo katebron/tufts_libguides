@@ -60,8 +60,8 @@ body{
   }
 }
 #tufts_header{
-  @include filter-gradient($tufts-info-blue, $tufts-classic, 'horizontal');
-  @include background-image(linear-gradient(-90deg, $tufts-classic, $tufts-info-blue)); 
+  @include filter-gradient($tufts-info-blue, $hirsh-blue, 'horizontal');
+  @include background-image(linear-gradient(-90deg, $hirsh-blue, $tufts-info-blue)); 
 }
 #tufts_header a{
 font-family: sans-serif;
@@ -104,15 +104,19 @@ h2.s-lib-box-title{
 * TABS
 **************/
 #s-lg-tabs-container{
+  .nav-stacked a{
+    color: white;
+  }
 
   .nav-tabs{
 
-    @media all and (min-width: 700px){
-      margin-left: 0;
-    } 
-
+    
+    margin-left: 0;
+    a{
+      border: 1px solid $tufts-classic;
+    }
     .active a{
-     color: $light-orange;
+     color: white;//$light-orange;
      @include single-text-shadow;
     }
 
