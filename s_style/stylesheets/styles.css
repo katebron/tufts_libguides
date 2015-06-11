@@ -67,6 +67,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* line 43, ../sass/_init.scss */
+strong, b {
+  font-weight: bold;
+}
+
 /* line 24, ../sass/styles.scss */
 body {
   font-family: sans-serif;
