@@ -109,19 +109,17 @@ h2.s-lib-box-title{
   }
 
   .nav-tabs{
-
-    
+  
     margin-left: 0;
     a{
-      border: 1px solid $tufts-classic;
+     @include single-text-shadow;
     }
     .active a{
-     color: white;//$light-orange;
      @include single-text-shadow;
     }
 
     a:hover{
-      color: $light-orange !important;
+      color: orange !important;
       @include single-text-shadow;
     }
   }
