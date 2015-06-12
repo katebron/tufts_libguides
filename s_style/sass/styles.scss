@@ -229,7 +229,7 @@ form{
     position: absolute;
     right: 0;
     top: 0;
-    margin-top: 2em;
+    margin-top: 2.8em;
     height: 2em;
     z-index:5;
     color: white;
@@ -246,13 +246,7 @@ form{
     font-size: 11px;
   }
 }
-.col-md-9{
-  #tufts_search{
-    input[type="submit"]{
-      margin-top: 2em;
-    }
-  }
-}
+
 
 //fix alternate padding in firefox
 @-moz-document url-prefix() { 
