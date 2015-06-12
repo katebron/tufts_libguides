@@ -129,7 +129,7 @@ h2.s-lib-box-title{
     }
 
     a:hover{
-      color: orange;
+      //this didn't work anyway: color: orange;
       @include single-text-shadow;
     }
   }

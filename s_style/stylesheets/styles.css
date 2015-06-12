@@ -147,7 +147,6 @@ h2.s-lib-box-title {
 }
 /* line 131, ../sass/styles.scss */
 #s-lg-tabs-container .nav-tabs a:hover, #s-lg-tabs-container .nav-pills a:hover {
-  color: orange;
   text-shadow: 0px 0px 1px black;
 }
 
