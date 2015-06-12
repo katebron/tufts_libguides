@@ -30,6 +30,9 @@ html{
 
 body{
 	font-family: sans-serif;
+  font-size: 100% * ($base-font-size / 16px); /* 3 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 	line-height: 1.2;
   background-color: $background-gray;
   ul{

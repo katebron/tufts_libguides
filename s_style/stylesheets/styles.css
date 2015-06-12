@@ -20,55 +20,61 @@ html {
 /* line 31, ../sass/styles.scss */
 body {
   font-family: sans-serif;
+  font-size: 100%;
+  /* 3 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
   line-height: 1.2;
   background-color: #f5f5f5;
 }
-/* line 35, ../sass/styles.scss */
+/* line 38, ../sass/styles.scss */
 body ul {
   list-style-type: disc;
   margin-left: 1em;
 }
-/* line 38, ../sass/styles.scss */
+/* line 41, ../sass/styles.scss */
 body ul li {
   margin-bottom: 0.5em;
 }
 
-/* line 44, ../sass/styles.scss */
+/* line 47, ../sass/styles.scss */
 #s-lg-guide-main {
   padding-top: 0px;
 }
 
 @media all and (max-width: 750px) {
-  /* line 48, ../sass/styles.scss */
+  /* line 51, ../sass/styles.scss */
   #s-lg-guide-main, #lg-guide-header {
     padding: 1em;
   }
 }
-/* line 53, ../sass/styles.scss */
+/* line 56, ../sass/styles.scss */
 .navbar-fixed-bottom, .navbar-fixed-top {
   position: relative;
 }
 
-/* line 56, ../sass/styles.scss */
+/* line 59, ../sass/styles.scss */
 #tufts_header {
   background-color: #3172AE;
   color: white;
 }
 @media all and (min-width: 570px) {
-  /* line 56, ../sass/styles.scss */
+  /* line 59, ../sass/styles.scss */
   #tufts_header {
     margin: -1em -1em 0 -1em;
     padding: 2em 2em 0.25em 3.2em;
   }
 }
-/* line 63, ../sass/styles.scss */
+/* line 66, ../sass/styles.scss */
 #tufts_header h1 {
   font-size: 30px;
   margin-bottom: 1em;
   text-shadow: 0px 0px 1px black;
 }
 
-/* line 69, ../sass/styles.scss */
+/* line 72, ../sass/styles.scss */
 #tufts_header {
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF293E6B', endColorstr='#FF3172AE');
@@ -79,48 +85,48 @@ body ul li {
   background-image: linear-gradient(-90deg, #3172ae, #293e6b);
 }
 
-/* line 73, ../sass/styles.scss */
+/* line 76, ../sass/styles.scss */
 #tufts_header a {
   font-family: sans-serif;
   color: white;
 }
 
-/* line 78, ../sass/styles.scss */
+/* line 81, ../sass/styles.scss */
 #tufts_links ul {
   margin-left: 0;
   padding-left: 0;
 }
-/* line 81, ../sass/styles.scss */
+/* line 84, ../sass/styles.scss */
 #tufts_links ul li {
   display: inline;
   list-style-type: none !important;
   text-decoration: none !important;
   padding-right: 0em;
 }
-/* line 87, ../sass/styles.scss */
+/* line 90, ../sass/styles.scss */
 #tufts_links ul li:after {
   content: ' | ';
 }
-/* line 90, ../sass/styles.scss */
+/* line 93, ../sass/styles.scss */
 #tufts_links ul li:first-of-type {
   padding-left: 0.5em;
 }
-/* line 93, ../sass/styles.scss */
+/* line 96, ../sass/styles.scss */
 #tufts_links ul li:last-of-type:after {
   content: '';
 }
 
-/* line 98, ../sass/styles.scss */
+/* line 101, ../sass/styles.scss */
 p {
   padding: 0.5em 0.25em;
 }
 
-/* line 101, ../sass/styles.scss */
+/* line 104, ../sass/styles.scss */
 h2.s-lib-box-title {
   font-size: 18px !important;
 }
 
-/* line 106, ../sass/styles.scss */
+/* line 109, ../sass/styles.scss */
 #s-lg-guide-search-box form {
   background: transparent;
 }
@@ -128,29 +134,29 @@ h2.s-lib-box-title {
 /************
 * TABS
 **************/
-/* line 114, ../sass/styles.scss */
+/* line 117, ../sass/styles.scss */
 #s-lg-tabs-container .nav-stacked a {
   color: white;
 }
-/* line 118, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
 #s-lg-tabs-container .nav-tabs, #s-lg-tabs-container .nav-pills {
   margin-left: 0;
 }
-/* line 121, ../sass/styles.scss */
+/* line 124, ../sass/styles.scss */
 #s-lg-tabs-container .nav-tabs a, #s-lg-tabs-container .nav-pills a {
   text-shadow: 0px 0px 1px black;
 }
-/* line 124, ../sass/styles.scss */
+/* line 127, ../sass/styles.scss */
 #s-lg-tabs-container .nav-tabs .active a, #s-lg-tabs-container .nav-pills .active a {
   text-shadow: 0px 0px 1px black;
 }
-/* line 128, ../sass/styles.scss */
+/* line 131, ../sass/styles.scss */
 #s-lg-tabs-container .nav-tabs a:hover, #s-lg-tabs-container .nav-pills a:hover {
   color: orange !important;
   text-shadow: 0px 0px 1px black;
 }
 
-/* line 136, ../sass/styles.scss */
+/* line 139, ../sass/styles.scss */
 .dropdown-toggle .nav-stacked a, .dropdown-toggle .nav-stacked > a {
   text-shadow: none;
 }
@@ -158,7 +164,7 @@ h2.s-lib-box-title {
 /************
 * TABLES
 ************/
-/* line 144, ../sass/styles.scss */
+/* line 147, ../sass/styles.scss */
 table {
   border: thin solid #CFB76D;
   background: #FFFFFF;
@@ -166,7 +172,7 @@ table {
   vertical-align: top;
   width: 100%;
 }
-/* line 150, ../sass/styles.scss */
+/* line 153, ../sass/styles.scss */
 table th {
   font-weight: bold;
   background: #E8DCB9;
@@ -174,7 +180,7 @@ table th {
   vertical-align: bottom;
   padding: 2px;
 }
-/* line 158, ../sass/styles.scss */
+/* line 161, ../sass/styles.scss */
 table td {
   background: #FFFFFF;
   vertical-align: middle;
@@ -184,7 +190,7 @@ table td {
   font-weight: normal;
   border-right: 1px dotted #E8DCB9;
 }
-/* line 167, ../sass/styles.scss */
+/* line 170, ../sass/styles.scss */
 table .rowhead {
   font-weight: bold;
   background: #F8F4E9;
@@ -192,23 +198,23 @@ table .rowhead {
   padding-left: 4px;
   font-size: small;
 }
-/* line 175, ../sass/styles.scss */
+/* line 178, ../sass/styles.scss */
 table tr.alt {
   background-color: #c4e0f5;
 }
-/* line 180, ../sass/styles.scss */
+/* line 183, ../sass/styles.scss */
 table .beige td {
   text-align: center;
 }
-/* line 184, ../sass/styles.scss */
+/* line 187, ../sass/styles.scss */
 table .beigeLeft {
   text-align: left;
 }
-/* line 186, ../sass/styles.scss */
+/* line 189, ../sass/styles.scss */
 table .beigeLeft tr.altRow td {
   background-color: #e3ecf6;
 }
-/* line 189, ../sass/styles.scss */
+/* line 192, ../sass/styles.scss */
 table .beigeLeft td {
   text-align: left;
 }
@@ -216,28 +222,28 @@ table .beigeLeft td {
 /****
 * FORMS
 ******/
-/* line 197, ../sass/styles.scss */
+/* line 200, ../sass/styles.scss */
 form {
   background-color: #eee;
   padding: 0.25em 0.5em 1em 0.5em;
 }
 
-/* line 203, ../sass/styles.scss */
+/* line 206, ../sass/styles.scss */
 #s-lg-guide-search-box form {
   background: transparent;
 }
 
-/* line 208, ../sass/styles.scss */
+/* line 211, ../sass/styles.scss */
 #tufts_search fieldset {
   position: relative;
 }
-/* line 211, ../sass/styles.scss */
+/* line 214, ../sass/styles.scss */
 #tufts_search input[type="text"] {
   width: 99%;
   height: 2em;
   z-index: -1;
 }
-/* line 216, ../sass/styles.scss */
+/* line 219, ../sass/styles.scss */
 #tufts_search input[type="submit"] {
   position: absolute;
   right: 0;
@@ -251,7 +257,7 @@ form {
   -moz-border-radius: 0;
   border-radius: 0;
 }
-/* line 229, ../sass/styles.scss */
+/* line 232, ../sass/styles.scss */
 #tufts_search .more {
   position: absolute;
   bottom: 0;
@@ -261,7 +267,7 @@ form {
 }
 
 @-moz-document url-prefix() {
-  /* line 240, ../sass/styles.scss */
+  /* line 243, ../sass/styles.scss */
   #tufts_search input[type="submit"] {
     margin-top: 0;
     -webkit-border-radius: 0px;
@@ -269,7 +275,7 @@ form {
     border-radius: 0;
   }
 }
-/* line 249, ../sass/styles.scss */
+/* line 252, ../sass/styles.scss */
 #tufts_footer {
   padding: 2em;
 }
