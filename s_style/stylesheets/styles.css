@@ -133,27 +133,32 @@ h2.s-lib-box-title {
   color: white;
 }
 /* line 118, ../sass/styles.scss */
-#s-lg-tabs-container .nav-tabs, #s-lg-tabs-container .nav-stacked {
+#s-lg-tabs-container .nav-tabs, #s-lg-tabs-container .nav-pills {
   margin-left: 0;
 }
 /* line 121, ../sass/styles.scss */
-#s-lg-tabs-container .nav-tabs a, #s-lg-tabs-container .nav-stacked a {
+#s-lg-tabs-container .nav-tabs a, #s-lg-tabs-container .nav-pills a {
   text-shadow: 0px 0px 1px black;
 }
 /* line 124, ../sass/styles.scss */
-#s-lg-tabs-container .nav-tabs .active a, #s-lg-tabs-container .nav-stacked .active a {
+#s-lg-tabs-container .nav-tabs .active a, #s-lg-tabs-container .nav-pills .active a {
   text-shadow: 0px 0px 1px black;
 }
 /* line 128, ../sass/styles.scss */
-#s-lg-tabs-container .nav-tabs a:hover, #s-lg-tabs-container .nav-stacked a:hover {
+#s-lg-tabs-container .nav-tabs a:hover, #s-lg-tabs-container .nav-pills a:hover {
   color: orange !important;
   text-shadow: 0px 0px 1px black;
+}
+
+/* line 136, ../sass/styles.scss */
+.dropdown-toggle .nav-stacked a, .dropdown-toggle .nav-stacked > a {
+  text-shadow: none;
 }
 
 /************
 * TABLES
 ************/
-/* line 137, ../sass/styles.scss */
+/* line 144, ../sass/styles.scss */
 table {
   border: thin solid #CFB76D;
   background: #FFFFFF;
@@ -161,7 +166,7 @@ table {
   vertical-align: top;
   width: 100%;
 }
-/* line 143, ../sass/styles.scss */
+/* line 150, ../sass/styles.scss */
 table th {
   font-weight: bold;
   background: #E8DCB9;
@@ -169,7 +174,7 @@ table th {
   vertical-align: bottom;
   padding: 2px;
 }
-/* line 151, ../sass/styles.scss */
+/* line 158, ../sass/styles.scss */
 table td {
   background: #FFFFFF;
   vertical-align: middle;
@@ -179,7 +184,7 @@ table td {
   font-weight: normal;
   border-right: 1px dotted #E8DCB9;
 }
-/* line 160, ../sass/styles.scss */
+/* line 167, ../sass/styles.scss */
 table .rowhead {
   font-weight: bold;
   background: #F8F4E9;
@@ -187,23 +192,23 @@ table .rowhead {
   padding-left: 4px;
   font-size: small;
 }
-/* line 168, ../sass/styles.scss */
+/* line 175, ../sass/styles.scss */
 table tr.alt {
   background-color: #c4e0f5;
 }
-/* line 173, ../sass/styles.scss */
+/* line 180, ../sass/styles.scss */
 table .beige td {
   text-align: center;
 }
-/* line 177, ../sass/styles.scss */
+/* line 184, ../sass/styles.scss */
 table .beigeLeft {
   text-align: left;
 }
-/* line 179, ../sass/styles.scss */
+/* line 186, ../sass/styles.scss */
 table .beigeLeft tr.altRow td {
   background-color: #e3ecf6;
 }
-/* line 182, ../sass/styles.scss */
+/* line 189, ../sass/styles.scss */
 table .beigeLeft td {
   text-align: left;
 }
@@ -211,28 +216,28 @@ table .beigeLeft td {
 /****
 * FORMS
 ******/
-/* line 190, ../sass/styles.scss */
+/* line 197, ../sass/styles.scss */
 form {
   background-color: #eee;
   padding: 0.25em 0.5em 1em 0.5em;
 }
 
-/* line 196, ../sass/styles.scss */
+/* line 203, ../sass/styles.scss */
 #s-lg-guide-search-box form {
   background: transparent;
 }
 
-/* line 201, ../sass/styles.scss */
+/* line 208, ../sass/styles.scss */
 #tufts_search fieldset {
   position: relative;
 }
-/* line 204, ../sass/styles.scss */
+/* line 211, ../sass/styles.scss */
 #tufts_search input[type="text"] {
   width: 99%;
   height: 2em;
   z-index: -1;
 }
-/* line 209, ../sass/styles.scss */
+/* line 216, ../sass/styles.scss */
 #tufts_search input[type="submit"] {
   position: absolute;
   right: 0;
@@ -246,7 +251,7 @@ form {
   -moz-border-radius: 0;
   border-radius: 0;
 }
-/* line 222, ../sass/styles.scss */
+/* line 229, ../sass/styles.scss */
 #tufts_search .more {
   position: absolute;
   bottom: 0;
@@ -256,7 +261,7 @@ form {
 }
 
 @-moz-document url-prefix() {
-  /* line 233, ../sass/styles.scss */
+  /* line 240, ../sass/styles.scss */
   #tufts_search input[type="submit"] {
     margin-top: 0;
     -webkit-border-radius: 0px;
@@ -264,7 +269,7 @@ form {
     border-radius: 0;
   }
 }
-/* line 242, ../sass/styles.scss */
+/* line 249, ../sass/styles.scss */
 #tufts_footer {
   padding: 2em;
 }

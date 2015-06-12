@@ -115,7 +115,7 @@ h2.s-lib-box-title{
     color: white;
   }
 
-  .nav-tabs, .nav-stacked{
+  .nav-tabs, .nav-pills{
   
     margin-left: 0;
     a{
@@ -128,6 +128,13 @@ h2.s-lib-box-title{
     a:hover{
       color: orange !important;
       @include single-text-shadow;
+    }
+  }
+}
+.dropdown-toggle{
+  .nav-stacked{
+    a, > a{
+    text-shadow: none;
     }
   }
 }
