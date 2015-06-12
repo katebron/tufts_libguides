@@ -241,6 +241,13 @@ form{
     font-size: 11px;
   }
 }
+.col-md-9{
+  #tufts_search{
+    input[type="submit"]{
+      margin-top: 2em;
+    }
+  }
+}
 //fix alternate padding in firefox
 @-moz-document url-prefix() { 
   #tufts_search{

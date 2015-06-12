@@ -265,8 +265,13 @@ form {
   font-size: 11px;
 }
 
+/* line 246, ../sass/styles.scss */
+.col-md-9 #tufts_search input[type="submit"] {
+  margin-top: 2em;
+}
+
 @-moz-document url-prefix() {
-  /* line 247, ../sass/styles.scss */
+  /* line 254, ../sass/styles.scss */
   #tufts_search input[type="submit"] {
     margin-top: 0;
     -webkit-border-radius: 0px;
@@ -274,7 +279,7 @@ form {
     border-radius: 0;
   }
 }
-/* line 256, ../sass/styles.scss */
+/* line 263, ../sass/styles.scss */
 #tufts_footer {
   padding: 2em;
 }
