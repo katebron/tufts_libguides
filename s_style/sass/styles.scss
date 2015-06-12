@@ -149,7 +149,18 @@ h2.s-lib-box-title{
     font-weight: bold;
   }
 }
-
+/***
+* MISC 
+****/
+.label-info, .btn-info{
+ color: black;
+ a{
+   color: black;
+  }
+ a:hover{
+  @include single-text-shadow;
+ }
+}
 /************
 * TABLES
 ************/

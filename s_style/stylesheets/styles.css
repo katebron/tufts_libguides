@@ -168,10 +168,26 @@ h2.s-lib-box-title {
   font-weight: bold;
 }
 
+/***
+* MISC 
+****/
+/* line 155, ../sass/styles.scss */
+.label-info, .btn-info {
+  color: black;
+}
+/* line 157, ../sass/styles.scss */
+.label-info a, .btn-info a {
+  color: black;
+}
+/* line 160, ../sass/styles.scss */
+.label-info a:hover, .btn-info a:hover {
+  text-shadow: 0px 0px 1px black;
+}
+
 /************
 * TABLES
 ************/
-/* line 156, ../sass/styles.scss */
+/* line 167, ../sass/styles.scss */
 table {
   border: thin solid #CFB76D;
   background: #FFFFFF;
@@ -179,7 +195,7 @@ table {
   vertical-align: top;
   width: 100%;
 }
-/* line 162, ../sass/styles.scss */
+/* line 173, ../sass/styles.scss */
 table th {
   font-weight: bold;
   background: #E8DCB9;
@@ -187,7 +203,7 @@ table th {
   vertical-align: bottom;
   padding: 2px;
 }
-/* line 170, ../sass/styles.scss */
+/* line 181, ../sass/styles.scss */
 table td {
   background: #FFFFFF;
   vertical-align: middle;
@@ -197,7 +213,7 @@ table td {
   font-weight: normal;
   border-right: 1px dotted #E8DCB9;
 }
-/* line 179, ../sass/styles.scss */
+/* line 190, ../sass/styles.scss */
 table .rowhead {
   font-weight: bold;
   background: #F8F4E9;
@@ -205,23 +221,23 @@ table .rowhead {
   padding-left: 4px;
   font-size: small;
 }
-/* line 187, ../sass/styles.scss */
+/* line 198, ../sass/styles.scss */
 table tr.alt {
   background-color: #c4e0f5;
 }
-/* line 192, ../sass/styles.scss */
+/* line 203, ../sass/styles.scss */
 table .beige td {
   text-align: center;
 }
-/* line 196, ../sass/styles.scss */
+/* line 207, ../sass/styles.scss */
 table .beigeLeft {
   text-align: left;
 }
-/* line 198, ../sass/styles.scss */
+/* line 209, ../sass/styles.scss */
 table .beigeLeft tr.altRow td {
   background-color: #e3ecf6;
 }
-/* line 201, ../sass/styles.scss */
+/* line 212, ../sass/styles.scss */
 table .beigeLeft td {
   text-align: left;
 }
@@ -229,28 +245,28 @@ table .beigeLeft td {
 /****
 * FORMS
 ******/
-/* line 209, ../sass/styles.scss */
+/* line 220, ../sass/styles.scss */
 form {
   background-color: #eee;
   padding: 0.25em 0.5em 1em 0.5em;
 }
 
-/* line 215, ../sass/styles.scss */
+/* line 226, ../sass/styles.scss */
 #s-lg-guide-search-box form {
   background: transparent;
 }
 
-/* line 220, ../sass/styles.scss */
+/* line 231, ../sass/styles.scss */
 #tufts_search fieldset {
   position: relative;
 }
-/* line 223, ../sass/styles.scss */
+/* line 234, ../sass/styles.scss */
 #tufts_search input[type="text"] {
   width: 99%;
   height: 2em;
   z-index: -1;
 }
-/* line 228, ../sass/styles.scss */
+/* line 239, ../sass/styles.scss */
 #tufts_search input[type="submit"] {
   position: absolute;
   right: 0;
@@ -264,7 +280,7 @@ form {
   -moz-border-radius: 0;
   border-radius: 0;
 }
-/* line 241, ../sass/styles.scss */
+/* line 252, ../sass/styles.scss */
 #tufts_search .more {
   position: absolute;
   bottom: 0;
@@ -274,7 +290,7 @@ form {
 }
 
 @-moz-document url-prefix() {
-  /* line 254, ../sass/styles.scss */
+  /* line 265, ../sass/styles.scss */
   #tufts_search input[type="submit"] {
     margin-top: 0;
     -webkit-border-radius: 0px;
@@ -282,12 +298,12 @@ form {
     border-radius: 0;
   }
 }
-/* line 263, ../sass/styles.scss */
+/* line 274, ../sass/styles.scss */
 #tufts_footer {
   padding: 2em;
 }
 
-/* line 276, ../sass/styles.scss */
+/* line 287, ../sass/styles.scss */
 #s-lg-guide-main:nth-of-type(4) #tufts_search input[type="submit"], #s-lg-tabs-container:nth-of-type(3) #tufts_search input[type="submit"] {
   margin-top: 2em;
 }
