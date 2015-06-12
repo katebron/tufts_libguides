@@ -134,13 +134,17 @@ h2.s-lib-box-title{
     }
   }
 }
-.dropdown-toggle{
-  .nav-stacked{
-    a, > a{
+
+.s-lg-subtab-ul{
+  a, > a {
     text-shadow: none !important;
-    }
+  }
+  a:hover{
+    color: black !important;
+    font-weight: bold;
   }
 }
+
 /************
 * TABLES
 ************/

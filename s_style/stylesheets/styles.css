@@ -157,14 +157,19 @@ h2.s-lib-box-title {
 }
 
 /* line 139, ../sass/styles.scss */
-.dropdown-toggle .nav-stacked a, .dropdown-toggle .nav-stacked > a {
+.s-lg-subtab-ul a, .s-lg-subtab-ul > a {
   text-shadow: none !important;
+}
+/* line 142, ../sass/styles.scss */
+.s-lg-subtab-ul a:hover {
+  color: black !important;
+  font-weight: bold;
 }
 
 /************
 * TABLES
 ************/
-/* line 147, ../sass/styles.scss */
+/* line 151, ../sass/styles.scss */
 table {
   border: thin solid #CFB76D;
   background: #FFFFFF;
@@ -172,7 +177,7 @@ table {
   vertical-align: top;
   width: 100%;
 }
-/* line 153, ../sass/styles.scss */
+/* line 157, ../sass/styles.scss */
 table th {
   font-weight: bold;
   background: #E8DCB9;
@@ -180,7 +185,7 @@ table th {
   vertical-align: bottom;
   padding: 2px;
 }
-/* line 161, ../sass/styles.scss */
+/* line 165, ../sass/styles.scss */
 table td {
   background: #FFFFFF;
   vertical-align: middle;
@@ -190,7 +195,7 @@ table td {
   font-weight: normal;
   border-right: 1px dotted #E8DCB9;
 }
-/* line 170, ../sass/styles.scss */
+/* line 174, ../sass/styles.scss */
 table .rowhead {
   font-weight: bold;
   background: #F8F4E9;
@@ -198,23 +203,23 @@ table .rowhead {
   padding-left: 4px;
   font-size: small;
 }
-/* line 178, ../sass/styles.scss */
+/* line 182, ../sass/styles.scss */
 table tr.alt {
   background-color: #c4e0f5;
 }
-/* line 183, ../sass/styles.scss */
+/* line 187, ../sass/styles.scss */
 table .beige td {
   text-align: center;
 }
-/* line 187, ../sass/styles.scss */
+/* line 191, ../sass/styles.scss */
 table .beigeLeft {
   text-align: left;
 }
-/* line 189, ../sass/styles.scss */
+/* line 193, ../sass/styles.scss */
 table .beigeLeft tr.altRow td {
   background-color: #e3ecf6;
 }
-/* line 192, ../sass/styles.scss */
+/* line 196, ../sass/styles.scss */
 table .beigeLeft td {
   text-align: left;
 }
@@ -222,28 +227,28 @@ table .beigeLeft td {
 /****
 * FORMS
 ******/
-/* line 200, ../sass/styles.scss */
+/* line 204, ../sass/styles.scss */
 form {
   background-color: #eee;
   padding: 0.25em 0.5em 1em 0.5em;
 }
 
-/* line 206, ../sass/styles.scss */
+/* line 210, ../sass/styles.scss */
 #s-lg-guide-search-box form {
   background: transparent;
 }
 
-/* line 211, ../sass/styles.scss */
+/* line 215, ../sass/styles.scss */
 #tufts_search fieldset {
   position: relative;
 }
-/* line 214, ../sass/styles.scss */
+/* line 218, ../sass/styles.scss */
 #tufts_search input[type="text"] {
   width: 99%;
   height: 2em;
   z-index: -1;
 }
-/* line 219, ../sass/styles.scss */
+/* line 223, ../sass/styles.scss */
 #tufts_search input[type="submit"] {
   position: absolute;
   right: 0;
@@ -257,7 +262,7 @@ form {
   -moz-border-radius: 0;
   border-radius: 0;
 }
-/* line 232, ../sass/styles.scss */
+/* line 236, ../sass/styles.scss */
 #tufts_search .more {
   position: absolute;
   bottom: 0;
@@ -267,7 +272,7 @@ form {
 }
 
 @-moz-document url-prefix() {
-  /* line 243, ../sass/styles.scss */
+  /* line 247, ../sass/styles.scss */
   #tufts_search input[type="submit"] {
     margin-top: 0;
     -webkit-border-radius: 0px;
@@ -275,7 +280,7 @@ form {
     border-radius: 0;
   }
 }
-/* line 252, ../sass/styles.scss */
+/* line 256, ../sass/styles.scss */
 #tufts_footer {
   padding: 2em;
 }
