@@ -152,13 +152,13 @@ h2.s-lib-box-title {
 }
 /* line 131, ../sass/styles.scss */
 #s-lg-tabs-container .nav-tabs a:hover, #s-lg-tabs-container .nav-pills a:hover {
-  color: orange !important;
+  color: orange;
   text-shadow: 0px 0px 1px black;
 }
 
 /* line 139, ../sass/styles.scss */
 .dropdown-toggle .nav-stacked a, .dropdown-toggle .nav-stacked > a {
-  text-shadow: none;
+  text-shadow: none !important;
 }
 
 /************
