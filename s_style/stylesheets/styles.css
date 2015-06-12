@@ -59,13 +59,8 @@ body ul li {
 #tufts_header {
   background-color: #3172AE;
   color: white;
-}
-@media all and (min-width: 570px) {
-  /* line 59, ../sass/styles.scss */
-  #tufts_header {
-    margin: -1em -1em 0 -1em;
-    padding: 2em 2em 0.25em 3.2em;
-  }
+  margin: -1em -1em 0 -1em;
+  padding: 2em 2em 0.25em 3.2em;
 }
 /* line 66, ../sass/styles.scss */
 #tufts_header h1 {

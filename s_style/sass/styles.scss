@@ -59,10 +59,10 @@ body{
 #tufts_header{
   background-color: $tufts-info-blue;
   color: white;
-  @media all and (min-width: 570px){
+
     margin: -1em -1em 0 -1em;
     padding: 2em 2em 0.25em 3.2em;
-  }
+
   h1{
     font-size: 30px;
     margin-bottom: 1em;
