@@ -286,3 +286,8 @@ form {
 #tufts_footer {
   padding: 2em;
 }
+
+/* line 276, ../sass/styles.scss */
+#s-lg-guide-main:nth-of-type(4) #tufts_search input[type="submit"], #s-lg-tabs-container:nth-of-type(3) #tufts_search input[type="submit"] {
+  margin-top: 2em;
+}
