@@ -2,12 +2,12 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 43, ../sass/_init.scss */
+/* line 44, ../sass/_init.scss */
 strong, b {
   font-weight: bold;
 }
 
-/* line 24, ../sass/styles.scss */
+/* line 25, ../sass/styles.scss */
 html {
   font-size: 100%;
   /* 3 */
@@ -18,6 +18,56 @@ html {
 }
 
 /* line 31, ../sass/styles.scss */
+h1 {
+  /* Set the font-size and line-height while keeping a proper vertical rhythm. */
+  font-size: 2em;
+  line-height: 1.5em;
+  /* Set 1 unit of vertical rhythm on the top and bottom margins. */
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+/* line 39, ../sass/styles.scss */
+h2 {
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* line 44, ../sass/styles.scss */
+h3 {
+  font-size: 1.17em;
+  line-height: 1.28205em;
+  margin-top: 1.28205em;
+  margin-bottom: 1.28205em;
+}
+
+/* line 49, ../sass/styles.scss */
+h4 {
+  font-size: 1em;
+  line-height: 1.5em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+/* line 54, ../sass/styles.scss */
+h5 {
+  font-size: 0.83em;
+  line-height: 1.80723em;
+  margin-top: 1.80723em;
+  margin-bottom: 1.80723em;
+}
+
+/* line 59, ../sass/styles.scss */
+h6 {
+  font-size: 0.67em;
+  line-height: 2.23881em;
+  margin-top: 2.23881em;
+  margin-bottom: 2.23881em;
+}
+
+/* line 66, ../sass/styles.scss */
 body {
   padding-left: 1em;
   padding-right: 1em;
@@ -32,52 +82,52 @@ body {
   background-color: #f5f5f5;
 }
 @media all and (min-width: 750px) {
-  /* line 31, ../sass/styles.scss */
+  /* line 66, ../sass/styles.scss */
   body {
     padding: 0;
   }
 }
-/* line 43, ../sass/styles.scss */
+/* line 78, ../sass/styles.scss */
 body ul {
   list-style-type: disc;
   margin-left: 1em;
 }
-/* line 46, ../sass/styles.scss */
+/* line 81, ../sass/styles.scss */
 body ul li {
   margin-bottom: 0.5em;
 }
 
-/* line 52, ../sass/styles.scss */
+/* line 87, ../sass/styles.scss */
 #s-lg-guide-main {
   padding-top: 0px;
 }
 
 @media all and (max-width: 750px) {
-  /* line 56, ../sass/styles.scss */
+  /* line 91, ../sass/styles.scss */
   #s-lg-guide-main, #lg-guide-header {
     padding: 1em;
   }
 }
-/* line 61, ../sass/styles.scss */
+/* line 96, ../sass/styles.scss */
 .navbar-fixed-bottom, .navbar-fixed-top {
   position: relative;
 }
 
-/* line 64, ../sass/styles.scss */
+/* line 99, ../sass/styles.scss */
 #tufts_header {
   background-color: #3172AE;
   color: white;
   margin: -1em -1em 0 -1em;
   padding: 2em 2em 0.25em 3.2em;
 }
-/* line 71, ../sass/styles.scss */
+/* line 106, ../sass/styles.scss */
 #tufts_header h1 {
   font-size: 30px;
   margin-bottom: 1em;
   text-shadow: 0px 0px 1px black;
 }
 
-/* line 77, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 #tufts_header {
   *zoom: 1;
   filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF293E6B', endColorstr='#FF3172AE');
@@ -88,48 +138,48 @@ body ul li {
   background-image: linear-gradient(-90deg, #3172ae, #293e6b);
 }
 
-/* line 81, ../sass/styles.scss */
+/* line 116, ../sass/styles.scss */
 #tufts_header a {
   font-family: sans-serif;
   color: white;
 }
 
-/* line 86, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
 #tufts_links ul {
   margin-left: 0;
   padding-left: 0;
 }
-/* line 89, ../sass/styles.scss */
+/* line 124, ../sass/styles.scss */
 #tufts_links ul li {
   display: inline;
   list-style-type: none !important;
   text-decoration: none !important;
   padding-right: 0em;
 }
-/* line 95, ../sass/styles.scss */
+/* line 130, ../sass/styles.scss */
 #tufts_links ul li:after {
   content: ' | ';
 }
-/* line 98, ../sass/styles.scss */
+/* line 133, ../sass/styles.scss */
 #tufts_links ul li:first-of-type {
   padding-left: 0.5em;
 }
-/* line 101, ../sass/styles.scss */
+/* line 136, ../sass/styles.scss */
 #tufts_links ul li:last-of-type:after {
   content: '';
 }
 
-/* line 106, ../sass/styles.scss */
+/* line 141, ../sass/styles.scss */
 p {
   padding: 0.5em 0.25em;
 }
 
-/* line 109, ../sass/styles.scss */
+/* line 144, ../sass/styles.scss */
 h2.s-lib-box-title {
   font-size: 18px !important;
 }
 
-/* line 114, ../sass/styles.scss */
+/* line 149, ../sass/styles.scss */
 #s-lg-guide-search-box form {
   background: transparent;
 }
@@ -137,32 +187,32 @@ h2.s-lib-box-title {
 /************
 * TABS
 **************/
-/* line 122, ../sass/styles.scss */
+/* line 157, ../sass/styles.scss */
 #s-lg-tabs-container .nav-stacked a {
   color: white;
 }
-/* line 126, ../sass/styles.scss */
+/* line 161, ../sass/styles.scss */
 #s-lg-tabs-container .nav-tabs, #s-lg-tabs-container .nav-pills {
   margin-left: 0;
 }
-/* line 129, ../sass/styles.scss */
+/* line 164, ../sass/styles.scss */
 #s-lg-tabs-container .nav-tabs a, #s-lg-tabs-container .nav-pills a {
   text-shadow: 0px 0px 1px black;
 }
-/* line 132, ../sass/styles.scss */
+/* line 167, ../sass/styles.scss */
 #s-lg-tabs-container .nav-tabs .active a, #s-lg-tabs-container .nav-pills .active a {
   text-shadow: 0px 0px 1px black;
 }
-/* line 136, ../sass/styles.scss */
+/* line 171, ../sass/styles.scss */
 #s-lg-tabs-container .nav-tabs a:hover, #s-lg-tabs-container .nav-pills a:hover {
   text-shadow: 0px 0px 1px black;
 }
 
-/* line 144, ../sass/styles.scss */
+/* line 179, ../sass/styles.scss */
 .s-lg-subtab-ul a, .s-lg-subtab-ul > a {
   text-shadow: none !important;
 }
-/* line 147, ../sass/styles.scss */
+/* line 182, ../sass/styles.scss */
 .s-lg-subtab-ul a:hover {
   color: black !important;
   font-weight: bold;
@@ -171,23 +221,28 @@ h2.s-lib-box-title {
 /***
 * MISC 
 ****/
-/* line 155, ../sass/styles.scss */
+/* line 190, ../sass/styles.scss */
 .label-info, .btn-info {
   color: black;
 }
-/* line 157, ../sass/styles.scss */
+/* line 192, ../sass/styles.scss */
 .label-info a, .btn-info a {
   color: black;
 }
-/* line 160, ../sass/styles.scss */
+/* line 195, ../sass/styles.scss */
 .label-info a:hover, .btn-info a:hover {
   text-shadow: 0px 0px 1px black;
+}
+
+/* line 201, ../sass/styles.scss */
+.s-lg-hp-btn-section {
+  margin-top: 0.25em;
 }
 
 /************
 * TABLES
 ************/
-/* line 167, ../sass/styles.scss */
+/* line 207, ../sass/styles.scss */
 table {
   border: thin solid #CFB76D;
   background: #FFFFFF;
@@ -195,7 +250,7 @@ table {
   vertical-align: top;
   width: 100%;
 }
-/* line 173, ../sass/styles.scss */
+/* line 213, ../sass/styles.scss */
 table th {
   font-weight: bold;
   background: #E8DCB9;
@@ -203,7 +258,7 @@ table th {
   vertical-align: bottom;
   padding: 2px;
 }
-/* line 181, ../sass/styles.scss */
+/* line 221, ../sass/styles.scss */
 table td {
   background: #FFFFFF;
   vertical-align: middle;
@@ -213,7 +268,7 @@ table td {
   font-weight: normal;
   border-right: 1px dotted #E8DCB9;
 }
-/* line 190, ../sass/styles.scss */
+/* line 230, ../sass/styles.scss */
 table .rowhead {
   font-weight: bold;
   background: #F8F4E9;
@@ -221,23 +276,23 @@ table .rowhead {
   padding-left: 4px;
   font-size: small;
 }
-/* line 198, ../sass/styles.scss */
+/* line 238, ../sass/styles.scss */
 table tr.alt {
   background-color: #c4e0f5;
 }
-/* line 203, ../sass/styles.scss */
+/* line 243, ../sass/styles.scss */
 table .beige td {
   text-align: center;
 }
-/* line 207, ../sass/styles.scss */
+/* line 247, ../sass/styles.scss */
 table .beigeLeft {
   text-align: left;
 }
-/* line 209, ../sass/styles.scss */
+/* line 249, ../sass/styles.scss */
 table .beigeLeft tr.altRow td {
   background-color: #e3ecf6;
 }
-/* line 212, ../sass/styles.scss */
+/* line 252, ../sass/styles.scss */
 table .beigeLeft td {
   text-align: left;
 }
@@ -245,28 +300,28 @@ table .beigeLeft td {
 /****
 * FORMS
 ******/
-/* line 220, ../sass/styles.scss */
+/* line 260, ../sass/styles.scss */
 form {
   background-color: #eee;
   padding: 0.25em 0.5em 1em 0.5em;
 }
 
-/* line 226, ../sass/styles.scss */
+/* line 266, ../sass/styles.scss */
 #s-lg-guide-search-box form {
   background: transparent;
 }
 
-/* line 231, ../sass/styles.scss */
+/* line 271, ../sass/styles.scss */
 #tufts_search fieldset {
   position: relative;
 }
-/* line 234, ../sass/styles.scss */
+/* line 274, ../sass/styles.scss */
 #tufts_search input[type="text"] {
   width: 99%;
   height: 2em;
   z-index: -1;
 }
-/* line 239, ../sass/styles.scss */
+/* line 279, ../sass/styles.scss */
 #tufts_search input[type="submit"] {
   position: absolute;
   right: 0;
@@ -280,7 +335,7 @@ form {
   -moz-border-radius: 0;
   border-radius: 0;
 }
-/* line 252, ../sass/styles.scss */
+/* line 292, ../sass/styles.scss */
 #tufts_search .more {
   position: absolute;
   bottom: 0;
@@ -290,7 +345,7 @@ form {
 }
 
 @-moz-document url-prefix() {
-  /* line 265, ../sass/styles.scss */
+  /* line 305, ../sass/styles.scss */
   #tufts_search input[type="submit"] {
     margin-top: 0;
     -webkit-border-radius: 0px;
@@ -298,12 +353,12 @@ form {
     border-radius: 0;
   }
 }
-/* line 274, ../sass/styles.scss */
+/* line 314, ../sass/styles.scss */
 #tufts_footer {
   padding: 2em;
 }
 
-/* line 287, ../sass/styles.scss */
+/* line 327, ../sass/styles.scss */
 #s-lg-guide-main:nth-of-type(4) #tufts_search input[type="submit"], #s-lg-tabs-container:nth-of-type(3) #tufts_search input[type="submit"] {
   margin-top: 2em;
 }
