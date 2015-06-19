@@ -9,15 +9,31 @@
 // Partials to be shared with all .scss files.
 // =============================================================================
 
+// Add Compass' IE and vendor prefix support variables.
+@import "compass/support";
 
+
+// See http://compass-style.org/help/tutorials/spriting/
+@import "compass/utilities/sprites";
+// Use one CSS3 mixin instead of multiple vendor prefixes.
+@import "compass/typography/lists";
+@import "compass/typography/vertical_rhythm";
+//KB added this to work with lists.
+@import "compass/css3";
 
 @import "init";
+@import "mixins";
+
+
 
 html{
   font-size: 100% * ($base-font-size / 16px); /* 3 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
   // Establish a vertical rhythm unit using $base-line-height.
+}
+@include headings{
+  font-weight: bold;
 }
 h1 {
   /* Set the font-size and line-height while keeping a proper vertical rhythm. */
@@ -186,6 +202,22 @@ h2.s-lib-box-title{
  .s-lg-hp-btn-section{
    margin-top: 0.25em
  }
+
+ //social media buttons
+.fa-flickr, .fa-twitter, .fa-facebook{
+ color: $tisch-heading-orange;
+}
+//Put spacing underneath "strong" "headings" in contact box
+.s-lib-profile-div{
+  div{
+    padding-top: 1em;
+  }
+}
+.s-lib-profile-subjects{
+  a:first-of-type{
+    padding-top: 1em;
+  }
+}
 /************
 * TABLES
 ************/
@@ -294,6 +326,10 @@ form{
      border-radius: 0;
     }
   }
+}
+//DON'T SHOW FIND BY TYPE BUTTON
+#s-lg-index-guidetype-btn{
+  display:none;
 }
 //FOOTER
 #tufts_footer{
