@@ -1,73 +1,372 @@
-/*
-Error: Undefined variable: "$tisch-heading-orange".
-        on line 208 of /Users/katebronstad/Documents/also_web/tufts_spring/s_style/sass/styles.scss
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 33, ../sass/_init.scss */
+strong, b {
+  font-weight: bold;
+}
 
-203:    margin-top: 0.25em
-204:  }
-205: 
-206:  //social media buttons
-207: .fa-flickr, .fa-twitter, .fa-facebook{
-208:  color: $tisch-heading-orange;
-209: }
-210: //Put spacing underneath "strong" "headings" in contact box
-211: .s-lib-profile-div{
-212:   div{
-213:     padding-top: 1em;
+/* line 29, ../sass/styles.scss */
+html {
+  font-size: 100%;
+  /* 3 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
 
-Backtrace:
-/Users/katebronstad/Documents/also_web/tufts_spring/s_style/sass/styles.scss:208
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/script/tree/variable.rb:49:in `_perform'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/script/tree/node.rb:50:in `perform'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/stack.rb:79:in `block in with_base'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/stack.rb:115:in `with_frame'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/stack.rb:79:in `with_base'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:420:in `map'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/stack.rb:79:in `block in with_base'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/stack.rb:115:in `with_frame'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/stack.rb:79:in `with_base'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:52:in `map'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/tree/root_node.rb:20:in `render'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/engine.rb:268:in `render'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:491:in `update_stylesheet'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:469:in `on_file_changed'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/lib/sass/plugin/compiler.rb:328:in `block in watch'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/vendor/listen/lib/listen/adapter.rb:254:in `call'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/Users/katebronstad/.rvm/gems/ruby-2.1.2@global/gems/sass-3.4.4/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$tisch-heading-orange\".\A         on line 208 of /Users/katebronstad/Documents/also_web/tufts_spring/s_style/sass/styles.scss\A \A 203:    margin-top: 0.25em\A 204:  }\A 205: \A 206:  //social media buttons\A 207: .fa-flickr, .fa-twitter, .fa-facebook{\A 208:  color: $tisch-heading-orange;\A 209: }\A 210: //Put spacing underneath \"strong\" \"headings\" in contact box\A 211: .s-lib-profile-div{\A 212:   div{\A 213:     padding-top: 1em;"; }
+/* line 10, ../sass/_mixins.scss */
+h1, h2, h3,
+h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* line 38, ../sass/styles.scss */
+h1 {
+  /* Set the font-size and line-height while keeping a proper vertical rhythm. */
+  font-size: 24px;
+  /* Set 1 unit of vertical rhythm on the top and bottom margins. */
+}
+
+/* line 45, ../sass/styles.scss */
+h2 {
+  font-size: 20px;
+}
+
+/* line 49, ../sass/styles.scss */
+h3 {
+  font-size: 16px;
+}
+
+/* line 53, ../sass/styles.scss */
+h4 {
+  font-size: 13.6px;
+}
+
+/* line 57, ../sass/styles.scss */
+h5 {
+  font-size: 12px;
+}
+
+/* line 61, ../sass/styles.scss */
+h6 {
+  font-size: 10.72px;
+}
+
+/* line 67, ../sass/styles.scss */
+body {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: sans-serif;
+  font-size: 100%;
+  /* 3 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  line-height: 1.2;
+  background-color: #f5f5f5;
+}
+@media all and (min-width: 750px) {
+  /* line 67, ../sass/styles.scss */
+  body {
+    padding: 0;
+  }
+}
+/* line 79, ../sass/styles.scss */
+body ul {
+  list-style-type: disc;
+  margin-left: 1em;
+}
+/* line 82, ../sass/styles.scss */
+body ul li {
+  margin-bottom: 0.5em;
+}
+
+/* line 88, ../sass/styles.scss */
+#s-lg-guide-main {
+  padding-top: 0px;
+}
+
+@media all and (max-width: 750px) {
+  /* line 92, ../sass/styles.scss */
+  #s-lg-guide-main, #lg-guide-header {
+    padding: 1em;
+  }
+}
+/* line 97, ../sass/styles.scss */
+.navbar-fixed-bottom, .navbar-fixed-top {
+  position: relative;
+}
+
+/* line 100, ../sass/styles.scss */
+#tufts_header {
+  background-color: #3172AE;
+  color: white;
+  margin: -1em -1em 0 -1em;
+  padding: 2em 2em 0.25em 3.2em;
+}
+/* line 107, ../sass/styles.scss */
+#tufts_header h1 {
+  font-size: 30px;
+  margin-bottom: 1em;
+  text-shadow: 0px 0px 1px black;
+}
+
+/* line 113, ../sass/styles.scss */
+#tufts_header {
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF293E6B', endColorstr='#FF3172AE');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjEuMCIgeTE9IjAuNSIgeDI9IjAuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzMxNzJhZSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI5M2U2YiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -moz-linear-gradient(180deg, #3172ae, #293e6b);
+  background-image: -webkit-linear-gradient(180deg, #3172ae, #293e6b);
+  background-image: linear-gradient(-90deg, #3172ae, #293e6b);
+}
+
+/* line 117, ../sass/styles.scss */
+#tufts_header a {
+  font-family: sans-serif;
+  color: white;
+}
+
+/* line 122, ../sass/styles.scss */
+#tufts_links ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+/* line 125, ../sass/styles.scss */
+#tufts_links ul li {
+  display: inline;
+  list-style-type: none !important;
+  text-decoration: none !important;
+  padding-right: 0em;
+}
+/* line 131, ../sass/styles.scss */
+#tufts_links ul li:after {
+  content: ' | ';
+}
+/* line 134, ../sass/styles.scss */
+#tufts_links ul li:first-of-type {
+  padding-left: 0.5em;
+}
+/* line 137, ../sass/styles.scss */
+#tufts_links ul li:last-of-type:after {
+  content: '';
+}
+
+/* line 142, ../sass/styles.scss */
+p {
+  padding: 0.5em 0.25em;
+}
+
+/* line 145, ../sass/styles.scss */
+h2.s-lib-box-title {
+  font-size: 18px !important;
+}
+
+/* line 150, ../sass/styles.scss */
+#s-lg-guide-search-box form {
+  background: transparent;
+}
+
+/************
+* TABS
+**************/
+/* line 158, ../sass/styles.scss */
+#s-lg-tabs-container .nav-stacked a {
+  color: white;
+}
+/* line 162, ../sass/styles.scss */
+#s-lg-tabs-container .nav-tabs, #s-lg-tabs-container .nav-pills {
+  margin-left: 0;
+}
+/* line 165, ../sass/styles.scss */
+#s-lg-tabs-container .nav-tabs a, #s-lg-tabs-container .nav-pills a {
+  text-shadow: 0px 0px 1px black;
+}
+/* line 168, ../sass/styles.scss */
+#s-lg-tabs-container .nav-tabs .active a, #s-lg-tabs-container .nav-pills .active a {
+  text-shadow: 0px 0px 1px black;
+}
+/* line 172, ../sass/styles.scss */
+#s-lg-tabs-container .nav-tabs a:hover, #s-lg-tabs-container .nav-pills a:hover {
+  text-shadow: 0px 0px 1px black;
+}
+
+/* line 180, ../sass/styles.scss */
+.s-lg-subtab-ul a, .s-lg-subtab-ul > a {
+  text-shadow: none !important;
+}
+/* line 183, ../sass/styles.scss */
+.s-lg-subtab-ul a:hover {
+  color: black !important;
+  font-weight: bold;
+}
+
+/***
+* MISC 
+****/
+/* line 191, ../sass/styles.scss */
+.label-info, .btn-info {
+  color: black;
+}
+/* line 193, ../sass/styles.scss */
+.label-info a, .btn-info a {
+  color: black;
+}
+/* line 196, ../sass/styles.scss */
+.label-info a:hover, .btn-info a:hover {
+  text-shadow: 0px 0px 1px black;
+}
+
+/* line 202, ../sass/styles.scss */
+.s-lg-hp-btn-section {
+  margin-top: 0.25em;
+}
+
+/* line 207, ../sass/styles.scss */
+.fa-flickr, .fa-twitter, .fa-facebook {
+  color: #DB6B0F;
+}
+
+/* line 212, ../sass/styles.scss */
+.s-lib-profile-div div {
+  padding-top: 1em;
+}
+
+/* line 217, ../sass/styles.scss */
+.s-lib-profile-subjects a:first-of-type {
+  padding-top: 1em;
+}
+
+/************
+* TABLES
+************/
+/* line 224, ../sass/styles.scss */
+table {
+  border: thin solid #CFB76D;
+  background: #FFFFFF;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+}
+/* line 230, ../sass/styles.scss */
+table th {
+  font-weight: bold;
+  background: #E8DCB9;
+  text-align: center;
+  vertical-align: bottom;
+  padding: 2px;
+}
+/* line 238, ../sass/styles.scss */
+table td {
+  background: #FFFFFF;
+  vertical-align: middle;
+  padding: 4px;
+  border-top: 1px solid #E8DCB9;
+  font-size: small;
+  font-weight: normal;
+  border-right: 1px dotted #E8DCB9;
+}
+/* line 247, ../sass/styles.scss */
+table .rowhead {
+  font-weight: bold;
+  background: #F8F4E9;
+  text-align: left;
+  padding-left: 4px;
+  font-size: small;
+}
+/* line 255, ../sass/styles.scss */
+table tr.alt {
+  background-color: #c4e0f5;
+}
+/* line 260, ../sass/styles.scss */
+table .beige td {
+  text-align: center;
+}
+/* line 264, ../sass/styles.scss */
+table .beigeLeft {
+  text-align: left;
+}
+/* line 266, ../sass/styles.scss */
+table .beigeLeft tr.altRow td {
+  background-color: #e3ecf6;
+}
+/* line 269, ../sass/styles.scss */
+table .beigeLeft td {
+  text-align: left;
+}
+
+/****
+* FORMS
+******/
+/* line 277, ../sass/styles.scss */
+form {
+  background-color: #eee;
+  padding: 0.25em 0.5em 1em 0.5em;
+}
+
+/* line 283, ../sass/styles.scss */
+#s-lg-guide-search-box form {
+  background: transparent;
+}
+
+/* line 288, ../sass/styles.scss */
+#tufts_search fieldset {
+  position: relative;
+}
+/* line 291, ../sass/styles.scss */
+#tufts_search input[type="text"] {
+  width: 99%;
+  height: 2em;
+  z-index: -1;
+}
+/* line 296, ../sass/styles.scss */
+#tufts_search input[type="submit"] {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 2.8em;
+  height: 2em;
+  z-index: 5;
+  color: white;
+  background-color: #3172AE;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+/* line 309, ../sass/styles.scss */
+#tufts_search .more {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: -1.2em;
+  font-size: 11px;
+}
+
+@-moz-document url-prefix() {
+  /* line 322, ../sass/styles.scss */
+  #tufts_search input[type="submit"] {
+    margin-top: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+}
+/* line 331, ../sass/styles.scss */
+#s-lg-index-guidetype-btn {
+  display: none;
+}
+
+/* line 335, ../sass/styles.scss */
+#tufts_footer {
+  padding: 2em;
+}
+
+/* line 348, ../sass/styles.scss */
+#s-lg-guide-main:nth-of-type(4) #tufts_search input[type="submit"], #s-lg-tabs-container:nth-of-type(3) #tufts_search input[type="submit"] {
+  margin-top: 2em;
+}
