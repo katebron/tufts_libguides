@@ -218,6 +218,13 @@ h2.s-lib-box-title{
     padding-top: 1em;
   }
 }
+//PROFILE
+//make profile images on non-profile pages the same size
+.s-lib-featured-profile-image{
+ height: 160px;
+width: 160px;
+
+}
 /************
 * TABLES
 ************/
