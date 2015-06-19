@@ -204,7 +204,7 @@ h2.s-lib-box-title{
  }
 
  //social media buttons
-.fa-flickr, .fa-twitter, .fa-facebook{
+.fa-flickr, .fa-twitter, .fa-facebook, .fa-bookmark{
  color: $tisch-heading-orange;
 }
 //Put spacing underneath "strong" "headings" in contact box
@@ -341,6 +341,27 @@ form{
 //FOOTER
 #tufts_footer{
 padding: 2em;
+}
+
+//HOME PAGE
+//special contact info section
+
+#tufts_contact{
+ margin-top: -2em;
+ background-color: white;
+ box-shadow: 1px 1px 1px gray;
+ padding: 0.25em 0 2em 1em;
+ border-radius: 4px;
+ border: 1px solid #5BC0DE;
+  ul{
+    list-style:none;
+    margin-left: 0;
+    padding-left:0;
+    line-height: 2em;
+    @media all and (min-width: 700px){
+      line-height:1.2em;
+    }
+  }
 }
 ///
 //EDIT PAGES only

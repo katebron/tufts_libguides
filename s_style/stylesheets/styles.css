@@ -228,7 +228,7 @@ h2.s-lib-box-title {
 }
 
 /* line 207, ../sass/styles.scss */
-.fa-flickr, .fa-twitter, .fa-facebook {
+.fa-flickr, .fa-twitter, .fa-facebook, .fa-bookmark {
   color: #DB6B0F;
 }
 
@@ -372,7 +372,30 @@ form {
   padding: 2em;
 }
 
-/* line 355, ../sass/styles.scss */
+/* line 349, ../sass/styles.scss */
+#tufts_contact {
+  margin-top: -2em;
+  background-color: white;
+  box-shadow: 1px 1px 1px gray;
+  padding: 0.25em 0 2em 1em;
+  border-radius: 4px;
+  border: 1px solid #5BC0DE;
+}
+/* line 356, ../sass/styles.scss */
+#tufts_contact ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  line-height: 2em;
+}
+@media all and (min-width: 700px) {
+  /* line 356, ../sass/styles.scss */
+  #tufts_contact ul {
+    line-height: 1.2em;
+  }
+}
+
+/* line 376, ../sass/styles.scss */
 #s-lg-guide-main:nth-of-type(4) #tufts_search input[type="submit"], #s-lg-tabs-container:nth-of-type(3) #tufts_search input[type="submit"] {
   margin-top: 2em;
 }
