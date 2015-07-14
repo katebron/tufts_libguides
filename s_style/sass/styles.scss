@@ -249,7 +249,7 @@ width: 160px;
 * TABLES
 ************/
 table{ 
-    border: thin solid #CFB76D; 
+    border: thin solid #000; 
     background: #FFFFFF;
     text-align: center;
     vertical-align: top;
@@ -257,7 +257,6 @@ table{
   th { 
     //font-size: 105%;
     font-weight: bold;
-    background: #E8DCB9;
     text-align: center;
     vertical-align: bottom;
     padding: 2px;
@@ -266,14 +265,12 @@ table{
     background: #FFFFFF;
     vertical-align: middle;
     padding: 4px;
-    border-top: 1px solid #E8DCB9;
+    border-top: 1px solid #000;
     font-size: small;
     font-weight: normal;
-    border-right: 1px dotted #E8DCB9; 
   }
   .rowhead {
     font-weight: bold;
-    background: #F8F4E9;
     text-align: left;
     padding-left: 4px;
     font-size: small;
