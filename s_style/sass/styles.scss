@@ -191,6 +191,10 @@ h2.s-lib-box-title{
   text-shadow: none;
 
 }
+#s-lg-guide-tabs .s-lg-tabs-side .s-lg-boxnav .list-group-item a:visited{
+  color: black;
+}
+
 /***
 * MISC 
 ****/
@@ -204,6 +208,10 @@ h2.s-lib-box-title{
  }
 }
 
+//make sure links wrap
+.s-lib-box-content{
+word-wrap:break-word;
+}
 //space around front page button
  .s-lg-hp-btn-section{
    margin-top: 0.25em
@@ -249,9 +257,9 @@ width: 160px;
 * TABLES
 ************/
 table{ 
-    border: thin solid #000; 
+    border: thin solid #000;
+    border-top: thin solid #000 !important;
     background: #FFFFFF;
-    text-align: center;
     vertical-align: top;
     width: 100%;
   th { 
@@ -263,6 +271,7 @@ table{
   }   
   td {
     background: #FFFFFF;
+    text-align: left;
     vertical-align: middle;
     padding: 4px;
     border-top: 1px solid #000;
@@ -321,7 +330,7 @@ form{
     position: absolute;
     right: 0;
     top: 0;
-    margin-top: 2.8em;
+    margin-top: 2.5em;
     height: 2em;
     z-index:5;
     color: white;
@@ -338,7 +347,9 @@ form{
     font-size: 11px;
   }
 }
-
+legend{
+font-size: inherit;
+}
 
 //fix alternate padding in firefox
 @-moz-document url-prefix() { 
@@ -391,7 +402,7 @@ padding: 2em;
 #s-lg-guide-main:nth-of-type(4), #s-lg-tabs-container:nth-of-type(3) {
   #tufts_search{
     input[type="submit"]{
-      margin-top: 2em;
+      margin-top: 1.57em;
     }
   }
 }

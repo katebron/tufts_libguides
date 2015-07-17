@@ -212,57 +212,67 @@ h2.s-lib-box-title {
   text-shadow: none;
 }
 
+/* line 194, ../sass/styles.scss */
+#s-lg-guide-tabs .s-lg-tabs-side .s-lg-boxnav .list-group-item a:visited {
+  color: black;
+}
+
 /***
 * MISC 
 ****/
-/* line 197, ../sass/styles.scss */
+/* line 201, ../sass/styles.scss */
 .label-info, .btn-info {
   color: black;
 }
-/* line 199, ../sass/styles.scss */
+/* line 203, ../sass/styles.scss */
 .label-info a, .btn-info a {
   color: black;
 }
-/* line 202, ../sass/styles.scss */
+/* line 206, ../sass/styles.scss */
 .label-info a:hover, .btn-info a:hover {
   text-shadow: 0px 0px 1px black;
 }
 
-/* line 208, ../sass/styles.scss */
+/* line 212, ../sass/styles.scss */
+.s-lib-box-content {
+  word-wrap: break-word;
+}
+
+/* line 216, ../sass/styles.scss */
 .s-lg-hp-btn-section {
   margin-top: 0.25em;
 }
 
-/* line 213, ../sass/styles.scss */
+/* line 221, ../sass/styles.scss */
 .fa-flickr, .fa-twitter, .fa-facebook, .fa-bookmark {
   color: #DB6B0F;
 }
 
-/* line 217, ../sass/styles.scss */
+/* line 225, ../sass/styles.scss */
 div[id*="s-lib-profile-email-"] .label-info {
   background-color: #E3E3E3;
   box-shadow: inset 0 0 1px 1px #EAEAEA;
   border: 1px solid #BBB;
 }
 
-/* line 222, ../sass/styles.scss */
+/* line 230, ../sass/styles.scss */
 .label-info[href]:focus, .label-info[href]:hover {
   background-color: #D3D3D3;
   color: black;
 }
 
-/* line 226, ../sass/styles.scss */
+/* line 234, ../sass/styles.scss */
 a.label-info {
   font-size: 12px !important;
   padding: 0.75em 4.75em;
 }
 
-/* line 237, ../sass/styles.scss */
+/* line 245, ../sass/styles.scss */
 .s-lib-profile-subjects a:first-of-type {
   padding-top: 1em;
 }
 
-/* line 243, ../sass/styles.scss */
+/* line 251, ../sass/styles.scss */
 .s-lib-featured-profile-image {
   height: 160px;
   width: 160px;
@@ -271,54 +281,55 @@ a.label-info {
 /************
 * TABLES
 ************/
-/* line 251, ../sass/styles.scss */
+/* line 259, ../sass/styles.scss */
 table {
   border: thin solid #000;
+  border-top: thin solid #000 !important;
   background: #FFFFFF;
-  text-align: center;
   vertical-align: top;
   width: 100%;
 }
-/* line 257, ../sass/styles.scss */
+/* line 265, ../sass/styles.scss */
 table th {
   font-weight: bold;
   text-align: center;
   vertical-align: bottom;
   padding: 2px;
 }
-/* line 264, ../sass/styles.scss */
+/* line 272, ../sass/styles.scss */
 table td {
   background: #FFFFFF;
+  text-align: left;
   vertical-align: middle;
   padding: 4px;
   border-top: 1px solid #000;
   font-size: small;
   font-weight: normal;
 }
-/* line 272, ../sass/styles.scss */
+/* line 281, ../sass/styles.scss */
 table .rowhead {
   font-weight: bold;
   text-align: left;
   padding-left: 4px;
   font-size: small;
 }
-/* line 279, ../sass/styles.scss */
+/* line 288, ../sass/styles.scss */
 table tr.alt {
   background-color: #c4e0f5;
 }
-/* line 284, ../sass/styles.scss */
+/* line 293, ../sass/styles.scss */
 table .beige td {
   text-align: center;
 }
-/* line 288, ../sass/styles.scss */
+/* line 297, ../sass/styles.scss */
 table .beigeLeft {
   text-align: left;
 }
-/* line 290, ../sass/styles.scss */
+/* line 299, ../sass/styles.scss */
 table .beigeLeft tr.altRow td {
   background-color: #e3ecf6;
 }
-/* line 293, ../sass/styles.scss */
+/* line 302, ../sass/styles.scss */
 table .beigeLeft td {
   text-align: left;
 }
@@ -326,33 +337,33 @@ table .beigeLeft td {
 /****
 * FORMS
 ******/
-/* line 301, ../sass/styles.scss */
+/* line 310, ../sass/styles.scss */
 form {
   background-color: #eee;
   padding: 0.25em 0.5em 1em 0.5em;
 }
 
-/* line 307, ../sass/styles.scss */
+/* line 316, ../sass/styles.scss */
 #s-lg-guide-search-box form {
   background: transparent;
 }
 
-/* line 312, ../sass/styles.scss */
+/* line 321, ../sass/styles.scss */
 #tufts_search fieldset {
   position: relative;
 }
-/* line 315, ../sass/styles.scss */
+/* line 324, ../sass/styles.scss */
 #tufts_search input[type="text"] {
   width: 99%;
   height: 2em;
   z-index: -1;
 }
-/* line 320, ../sass/styles.scss */
+/* line 329, ../sass/styles.scss */
 #tufts_search input[type="submit"] {
   position: absolute;
   right: 0;
   top: 0;
-  margin-top: 2.8em;
+  margin-top: 2.5em;
   height: 2em;
   z-index: 5;
   color: white;
@@ -361,7 +372,7 @@ form {
   -moz-border-radius: 0;
   border-radius: 0;
 }
-/* line 333, ../sass/styles.scss */
+/* line 342, ../sass/styles.scss */
 #tufts_search .more {
   position: absolute;
   bottom: 0;
@@ -370,8 +381,13 @@ form {
   font-size: 11px;
 }
 
+/* line 350, ../sass/styles.scss */
+legend {
+  font-size: inherit;
+}
+
 @-moz-document url-prefix() {
-  /* line 346, ../sass/styles.scss */
+  /* line 357, ../sass/styles.scss */
   #tufts_search input[type="submit"] {
     margin-top: 0;
     -webkit-border-radius: 0px;
@@ -379,17 +395,17 @@ form {
     border-radius: 0;
   }
 }
-/* line 355, ../sass/styles.scss */
+/* line 366, ../sass/styles.scss */
 #s-lg-index-guidetype-btn {
   display: none;
 }
 
-/* line 359, ../sass/styles.scss */
+/* line 370, ../sass/styles.scss */
 #tufts_footer {
   padding: 2em;
 }
 
-/* line 366, ../sass/styles.scss */
+/* line 377, ../sass/styles.scss */
 #tufts_contact {
   margin-top: -2em;
   background-color: white;
@@ -398,7 +414,7 @@ form {
   border-radius: 4px;
   border: 1px solid #5BC0DE;
 }
-/* line 373, ../sass/styles.scss */
+/* line 384, ../sass/styles.scss */
 #tufts_contact ul {
   list-style: none;
   margin-left: 0;
@@ -406,13 +422,13 @@ form {
   line-height: 2em;
 }
 @media all and (min-width: 700px) {
-  /* line 373, ../sass/styles.scss */
+  /* line 384, ../sass/styles.scss */
   #tufts_contact ul {
     line-height: 1.2em;
   }
 }
 
-/* line 393, ../sass/styles.scss */
+/* line 404, ../sass/styles.scss */
 #s-lg-guide-main:nth-of-type(4) #tufts_search input[type="submit"], #s-lg-tabs-container:nth-of-type(3) #tufts_search input[type="submit"] {
-  margin-top: 2em;
+  margin-top: 1.57em;
 }
