@@ -217,62 +217,80 @@ h2.s-lib-box-title {
   color: black;
 }
 
-/***
-* MISC 
-****/
-/* line 201, ../sass/styles.scss */
-.label-info, .btn-info {
-  color: black;
-}
 /* line 203, ../sass/styles.scss */
-.label-info a, .btn-info a {
+#s-lg-guide-tabs .s-lg-tabs-side .dropdown .s-lg-subtab-ul a {
   color: black;
 }
 /* line 206, ../sass/styles.scss */
+#s-lg-guide-tabs .s-lg-tabs-side .dropdown .s-lg-subtab-ul a:hover {
+  color: black !important;
+}
+/* line 212, ../sass/styles.scss */
+#s-lg-guide-tabs .s-lg-tabs-side .s-lg-subtab-ul a, #s-lg-guide-tabs .s-lg-tabs-side .s-lg-subtab-ul > a {
+  text-shadow: none !important;
+  color: white !important;
+}
+/* line 216, ../sass/styles.scss */
+#s-lg-guide-tabs .s-lg-tabs-side .s-lg-subtab-ul a:hover {
+  color: white !important;
+}
+
+/***
+* MISC 
+****/
+/* line 226, ../sass/styles.scss */
+.label-info, .btn-info {
+  color: black;
+}
+/* line 228, ../sass/styles.scss */
+.label-info a, .btn-info a {
+  color: black;
+}
+/* line 231, ../sass/styles.scss */
 .label-info a:hover, .btn-info a:hover {
   text-shadow: 0px 0px 1px black;
 }
 
-/* line 212, ../sass/styles.scss */
+/* line 237, ../sass/styles.scss */
 .s-lib-box-content {
   word-wrap: break-word;
 }
 
-/* line 216, ../sass/styles.scss */
+/* line 241, ../sass/styles.scss */
 .s-lg-hp-btn-section {
   margin-top: 0.25em;
 }
 
-/* line 221, ../sass/styles.scss */
+/* line 246, ../sass/styles.scss */
 .fa-flickr, .fa-twitter, .fa-facebook, .fa-bookmark {
   color: #DB6B0F;
 }
 
-/* line 225, ../sass/styles.scss */
+/* line 250, ../sass/styles.scss */
 div[id*="s-lib-profile-email-"] .label-info {
   background-color: #E3E3E3;
   box-shadow: inset 0 0 1px 1px #EAEAEA;
   border: 1px solid #BBB;
 }
 
-/* line 230, ../sass/styles.scss */
+/* line 255, ../sass/styles.scss */
 .label-info[href]:focus, .label-info[href]:hover {
   background-color: #D3D3D3;
   color: black;
 }
 
-/* line 234, ../sass/styles.scss */
+/* line 259, ../sass/styles.scss */
 a.label-info {
   font-size: 12px !important;
   padding: 0.75em 4.75em;
 }
 
-/* line 245, ../sass/styles.scss */
+/* line 270, ../sass/styles.scss */
 .s-lib-profile-subjects a:first-of-type {
   padding-top: 1em;
 }
 
-/* line 251, ../sass/styles.scss */
+/* line 276, ../sass/styles.scss */
 .s-lib-featured-profile-image {
   height: 160px;
   width: 160px;
@@ -281,7 +299,7 @@ a.label-info {
 /************
 * TABLES
 ************/
-/* line 259, ../sass/styles.scss */
+/* line 284, ../sass/styles.scss */
 table {
   border: thin solid #000;
   border-top: thin solid #000 !important;
@@ -289,14 +307,14 @@ table {
   vertical-align: top;
   width: 100%;
 }
-/* line 265, ../sass/styles.scss */
+/* line 290, ../sass/styles.scss */
 table th {
   font-weight: bold;
   text-align: center;
   vertical-align: bottom;
   padding: 2px;
 }
-/* line 272, ../sass/styles.scss */
+/* line 297, ../sass/styles.scss */
 table td {
   background: #FFFFFF;
   text-align: left;
@@ -306,30 +324,30 @@ table td {
   font-size: small;
   font-weight: normal;
 }
-/* line 281, ../sass/styles.scss */
+/* line 306, ../sass/styles.scss */
 table .rowhead {
   font-weight: bold;
   text-align: left;
   padding-left: 4px;
   font-size: small;
 }
-/* line 288, ../sass/styles.scss */
+/* line 313, ../sass/styles.scss */
 table tr.alt {
   background-color: #c4e0f5;
 }
-/* line 293, ../sass/styles.scss */
+/* line 318, ../sass/styles.scss */
 table .beige td {
   text-align: center;
 }
-/* line 297, ../sass/styles.scss */
+/* line 322, ../sass/styles.scss */
 table .beigeLeft {
   text-align: left;
 }
-/* line 299, ../sass/styles.scss */
+/* line 324, ../sass/styles.scss */
 table .beigeLeft tr.altRow td {
   background-color: #e3ecf6;
 }
-/* line 302, ../sass/styles.scss */
+/* line 327, ../sass/styles.scss */
 table .beigeLeft td {
   text-align: left;
 }
@@ -337,28 +355,28 @@ table .beigeLeft td {
 /****
 * FORMS
 ******/
-/* line 310, ../sass/styles.scss */
+/* line 335, ../sass/styles.scss */
 form {
   background-color: #eee;
   padding: 0.25em 0.5em 1em 0.5em;
 }
 
-/* line 316, ../sass/styles.scss */
+/* line 341, ../sass/styles.scss */
 #s-lg-guide-search-box form {
   background: transparent;
 }
 
-/* line 321, ../sass/styles.scss */
+/* line 346, ../sass/styles.scss */
 #tufts_search fieldset {
   position: relative;
 }
-/* line 324, ../sass/styles.scss */
+/* line 349, ../sass/styles.scss */
 #tufts_search input[type="text"] {
   width: 99%;
   height: 2em;
   z-index: -1;
 }
-/* line 329, ../sass/styles.scss */
+/* line 354, ../sass/styles.scss */
 #tufts_search input[type="submit"] {
   position: absolute;
   right: 0;
@@ -372,7 +390,7 @@ form {
   -moz-border-radius: 0;
   border-radius: 0;
 }
-/* line 342, ../sass/styles.scss */
+/* line 367, ../sass/styles.scss */
 #tufts_search .more {
   position: absolute;
   bottom: 0;
@@ -381,13 +399,13 @@ form {
   font-size: 11px;
 }
 
-/* line 350, ../sass/styles.scss */
+/* line 375, ../sass/styles.scss */
 legend {
   font-size: inherit;
 }
 
 @-moz-document url-prefix() {
-  /* line 357, ../sass/styles.scss */
+  /* line 382, ../sass/styles.scss */
   #tufts_search input[type="submit"] {
     margin-top: 0;
     -webkit-border-radius: 0px;
@@ -395,17 +413,17 @@ legend {
     border-radius: 0;
   }
 }
-/* line 366, ../sass/styles.scss */
+/* line 391, ../sass/styles.scss */
 #s-lg-index-guidetype-btn {
   display: none;
 }
 
-/* line 370, ../sass/styles.scss */
+/* line 395, ../sass/styles.scss */
 #tufts_footer {
   padding: 2em;
 }
 
-/* line 377, ../sass/styles.scss */
+/* line 402, ../sass/styles.scss */
 #tufts_contact {
   margin-top: -2em;
   background-color: white;
@@ -414,7 +432,7 @@ legend {
   border-radius: 4px;
   border: 1px solid #5BC0DE;
 }
-/* line 384, ../sass/styles.scss */
+/* line 409, ../sass/styles.scss */
 #tufts_contact ul {
   list-style: none;
   margin-left: 0;
@@ -422,13 +440,13 @@ legend {
   line-height: 2em;
 }
 @media all and (min-width: 700px) {
-  /* line 384, ../sass/styles.scss */
+  /* line 409, ../sass/styles.scss */
   #tufts_contact ul {
     line-height: 1.2em;
   }
 }
 
-/* line 404, ../sass/styles.scss */
+/* line 429, ../sass/styles.scss */
 #s-lg-guide-main:nth-of-type(4) #tufts_search input[type="submit"], #s-lg-tabs-container:nth-of-type(3) #tufts_search input[type="submit"] {
   margin-top: 1.57em;
 }

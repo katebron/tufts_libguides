@@ -194,6 +194,31 @@ h2.s-lib-box-title{
 #s-lg-guide-tabs .s-lg-tabs-side .s-lg-boxnav .list-group-item a:visited{
   color: black;
 }
+//FOR SIDE NAVIGATION
+
+#s-lg-guide-tabs{
+  .s-lg-tabs-side{
+   //make sure that the dropdowns with a white background have black text
+    .dropdown .s-lg-subtab-ul{
+     a{
+      color: black;
+      }
+      a:hover{
+        color: black !important;
+      }
+    }  
+    //for sub-tabs that are one-level up, keep the text white
+    .s-lg-subtab-ul {
+      a, > a {
+      text-shadow: none !important;
+      color: white !important;
+      }
+      a:hover{
+       color: white !important;
+      }
+    }
+  }
+}
 
 /***
 * MISC 
