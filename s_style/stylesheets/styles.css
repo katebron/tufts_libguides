@@ -261,6 +261,13 @@ h2.s-lib-box-title {
   color: #DB6B0F;
 }
 
+/* line 253, ../sass/styles.scss */
+div[id*="s-lib-profile-email-"] .label-info {
+  background-color: #E3E3E3;
+  box-shadow: inset 0 0 1px 1px #EAEAEA;
+  border: 1px solid #BBB;
+}
+
 /* line 258, ../sass/styles.scss */
 .label-info[href]:focus, .label-info[href]:hover {
   background-color: #D3D3D3;
@@ -270,6 +277,7 @@ h2.s-lib-box-title {
 /* line 262, ../sass/styles.scss */
 a.label-info {
   font-size: 12px !important;
+  padding: 0.75em 4.75em;
 }
 
 /* line 273, ../sass/styles.scss */
