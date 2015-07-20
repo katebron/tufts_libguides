@@ -85,11 +85,6 @@ body ul li {
   margin-bottom: 0.5em;
 }
 
-/* line 88, ../sass/styles.scss */
-#s-lg-guide-main {
-  padding-top: 0px;
-}
-
 @media all and (max-width: 750px) {
   /* line 92, ../sass/styles.scss */
   #s-lg-guide-main, #lg-guide-header {
