@@ -285,7 +285,13 @@ a.label-info {
   padding-top: 1em;
 }
 
-/* line 279, ../sass/styles.scss */
+/* line 278, ../sass/styles.scss */
+.wide_list ul {
+  list-style-type: none;
+  margin-left: -1em;
+}
+
+/* line 284, ../sass/styles.scss */
 .s-lib-featured-profile-image {
   height: 160px;
   width: 160px;
@@ -294,7 +300,7 @@ a.label-info {
 /************
 * TABLES
 ************/
-/* line 287, ../sass/styles.scss */
+/* line 292, ../sass/styles.scss */
 table {
   border: thin solid #000;
   border-top: thin solid #000 !important;
@@ -302,14 +308,14 @@ table {
   vertical-align: top;
   width: 100%;
 }
-/* line 293, ../sass/styles.scss */
+/* line 298, ../sass/styles.scss */
 table th {
   font-weight: bold;
   text-align: center;
   vertical-align: bottom;
   padding: 2px;
 }
-/* line 300, ../sass/styles.scss */
+/* line 305, ../sass/styles.scss */
 table td {
   background: #FFFFFF;
   text-align: left;
@@ -319,30 +325,30 @@ table td {
   font-size: small;
   font-weight: normal;
 }
-/* line 309, ../sass/styles.scss */
+/* line 314, ../sass/styles.scss */
 table .rowhead {
   font-weight: bold;
   text-align: left;
   padding-left: 4px;
   font-size: small;
 }
-/* line 316, ../sass/styles.scss */
+/* line 321, ../sass/styles.scss */
 table tr.alt {
   background-color: #c4e0f5;
 }
-/* line 321, ../sass/styles.scss */
+/* line 326, ../sass/styles.scss */
 table .beige td {
   text-align: center;
 }
-/* line 325, ../sass/styles.scss */
+/* line 330, ../sass/styles.scss */
 table .beigeLeft {
   text-align: left;
 }
-/* line 327, ../sass/styles.scss */
+/* line 332, ../sass/styles.scss */
 table .beigeLeft tr.altRow td {
   background-color: #e3ecf6;
 }
-/* line 330, ../sass/styles.scss */
+/* line 335, ../sass/styles.scss */
 table .beigeLeft td {
   text-align: left;
 }
@@ -350,28 +356,28 @@ table .beigeLeft td {
 /****
 * FORMS
 ******/
-/* line 338, ../sass/styles.scss */
+/* line 343, ../sass/styles.scss */
 form {
   background-color: #eee;
   padding: 0.25em 0.5em 1em 0.5em;
 }
 
-/* line 344, ../sass/styles.scss */
+/* line 349, ../sass/styles.scss */
 #s-lg-guide-search-box form {
   background: transparent;
 }
 
-/* line 349, ../sass/styles.scss */
+/* line 354, ../sass/styles.scss */
 #tufts_search fieldset {
   position: relative;
 }
-/* line 352, ../sass/styles.scss */
+/* line 357, ../sass/styles.scss */
 #tufts_search input[type="text"] {
   width: 99%;
   height: 2em;
   z-index: -1;
 }
-/* line 357, ../sass/styles.scss */
+/* line 362, ../sass/styles.scss */
 #tufts_search input[type="submit"] {
   position: absolute;
   right: 0;
@@ -385,7 +391,7 @@ form {
   -moz-border-radius: 0;
   border-radius: 0;
 }
-/* line 370, ../sass/styles.scss */
+/* line 375, ../sass/styles.scss */
 #tufts_search .more {
   position: absolute;
   bottom: 0;
@@ -394,13 +400,13 @@ form {
   font-size: 11px;
 }
 
-/* line 378, ../sass/styles.scss */
+/* line 383, ../sass/styles.scss */
 legend {
   font-size: inherit;
 }
 
 @-moz-document url-prefix() {
-  /* line 385, ../sass/styles.scss */
+  /* line 390, ../sass/styles.scss */
   #tufts_search input[type="submit"] {
     margin-top: 0;
     -webkit-border-radius: 0px;
@@ -408,17 +414,17 @@ legend {
     border-radius: 0;
   }
 }
-/* line 394, ../sass/styles.scss */
+/* line 399, ../sass/styles.scss */
 #s-lg-index-guidetype-btn {
   display: none;
 }
 
-/* line 398, ../sass/styles.scss */
+/* line 403, ../sass/styles.scss */
 #tufts_footer {
   padding: 2em;
 }
 
-/* line 405, ../sass/styles.scss */
+/* line 410, ../sass/styles.scss */
 #tufts_contact {
   margin-top: -2em;
   background-color: white;
@@ -427,7 +433,7 @@ legend {
   border-radius: 4px;
   border: 1px solid #5BC0DE;
 }
-/* line 412, ../sass/styles.scss */
+/* line 417, ../sass/styles.scss */
 #tufts_contact ul {
   list-style: none;
   margin-left: 0;
@@ -435,13 +441,13 @@ legend {
   line-height: 2em;
 }
 @media all and (min-width: 700px) {
-  /* line 412, ../sass/styles.scss */
+  /* line 417, ../sass/styles.scss */
   #tufts_contact ul {
     line-height: 1.2em;
   }
 }
 
-/* line 432, ../sass/styles.scss */
+/* line 437, ../sass/styles.scss */
 #s-lg-guide-main:nth-of-type(4) #tufts_search input[type="submit"], #s-lg-tabs-container:nth-of-type(3) #tufts_search input[type="submit"] {
   margin-top: 1.57em;
 }

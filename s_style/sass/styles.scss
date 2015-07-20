@@ -274,6 +274,11 @@ padding: 0.75em 4.75em;
     padding-top: 1em;
   }
 }
+//make a list less narrow
+.wide_list ul{
+list-style-type: none;
+margin-left: -1em;
+}
 //PROFILE
 //make profile images on non-profile pages the same size
 .s-lib-featured-profile-image{
