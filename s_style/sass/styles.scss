@@ -264,6 +264,12 @@ font-size: 12px !important;
 padding: 0.75em 4.75em;
 
 }
+//when in the narrow column, decrease padding so won't stick out
+#s-lg-guide-main #s-lg-col-2 a.label-info {
+  @media all and (min-width: 1000px) and (max-width: 1200px){
+    padding: 0.75em 2em;
+  }
+}
 .s-lib-profile-div{
   div{
     //padding-top: 1em;

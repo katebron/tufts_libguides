@@ -280,18 +280,25 @@ a.label-info {
   padding: 0.75em 4.75em;
 }
 
-/* line 273, ../sass/styles.scss */
+@media all and (min-width: 1000px) and (max-width: 1200px) {
+  /* line 268, ../sass/styles.scss */
+  #s-lg-guide-main #s-lg-col-2 a.label-info {
+    padding: 0.75em 2em;
+  }
+}
+
+/* line 279, ../sass/styles.scss */
 .s-lib-profile-subjects a:first-of-type {
   padding-top: 1em;
 }
 
-/* line 278, ../sass/styles.scss */
+/* line 284, ../sass/styles.scss */
 .wide_list ul {
   list-style-type: none;
   margin-left: -1em;
 }
 
-/* line 284, ../sass/styles.scss */
+/* line 290, ../sass/styles.scss */
 .s-lib-featured-profile-image {
   height: 160px;
   width: 160px;
@@ -300,7 +307,7 @@ a.label-info {
 /************
 * TABLES
 ************/
-/* line 292, ../sass/styles.scss */
+/* line 298, ../sass/styles.scss */
 table {
   border: thin solid #000;
   border-top: thin solid #000 !important;
@@ -308,14 +315,14 @@ table {
   vertical-align: top;
   width: 100%;
 }
-/* line 298, ../sass/styles.scss */
+/* line 304, ../sass/styles.scss */
 table th {
   font-weight: bold;
   text-align: center;
   vertical-align: bottom;
   padding: 2px;
 }
-/* line 305, ../sass/styles.scss */
+/* line 311, ../sass/styles.scss */
 table td {
   background: #FFFFFF;
   text-align: left;
@@ -325,30 +332,30 @@ table td {
   font-size: small;
   font-weight: normal;
 }
-/* line 314, ../sass/styles.scss */
+/* line 320, ../sass/styles.scss */
 table .rowhead {
   font-weight: bold;
   text-align: left;
   padding-left: 4px;
   font-size: small;
 }
-/* line 321, ../sass/styles.scss */
+/* line 327, ../sass/styles.scss */
 table tr.alt {
   background-color: #c4e0f5;
 }
-/* line 326, ../sass/styles.scss */
+/* line 332, ../sass/styles.scss */
 table .beige td {
   text-align: center;
 }
-/* line 330, ../sass/styles.scss */
+/* line 336, ../sass/styles.scss */
 table .beigeLeft {
   text-align: left;
 }
-/* line 332, ../sass/styles.scss */
+/* line 338, ../sass/styles.scss */
 table .beigeLeft tr.altRow td {
   background-color: #e3ecf6;
 }
-/* line 335, ../sass/styles.scss */
+/* line 341, ../sass/styles.scss */
 table .beigeLeft td {
   text-align: left;
 }
@@ -356,28 +363,28 @@ table .beigeLeft td {
 /****
 * FORMS
 ******/
-/* line 343, ../sass/styles.scss */
+/* line 349, ../sass/styles.scss */
 form {
   background-color: #eee;
   padding: 0.25em 0.5em 1em 0.5em;
 }
 
-/* line 349, ../sass/styles.scss */
+/* line 355, ../sass/styles.scss */
 #s-lg-guide-search-box form {
   background: transparent;
 }
 
-/* line 354, ../sass/styles.scss */
+/* line 360, ../sass/styles.scss */
 #tufts_search fieldset {
   position: relative;
 }
-/* line 357, ../sass/styles.scss */
+/* line 363, ../sass/styles.scss */
 #tufts_search input[type="text"] {
   width: 99%;
   height: 2em;
   z-index: -1;
 }
-/* line 362, ../sass/styles.scss */
+/* line 368, ../sass/styles.scss */
 #tufts_search input[type="submit"] {
   position: absolute;
   right: 0;
@@ -391,7 +398,7 @@ form {
   -moz-border-radius: 0;
   border-radius: 0;
 }
-/* line 375, ../sass/styles.scss */
+/* line 381, ../sass/styles.scss */
 #tufts_search .more {
   position: absolute;
   bottom: 0;
@@ -400,13 +407,13 @@ form {
   font-size: 11px;
 }
 
-/* line 383, ../sass/styles.scss */
+/* line 389, ../sass/styles.scss */
 legend {
   font-size: inherit;
 }
 
 @-moz-document url-prefix() {
-  /* line 390, ../sass/styles.scss */
+  /* line 396, ../sass/styles.scss */
   #tufts_search input[type="submit"] {
     margin-top: 0;
     -webkit-border-radius: 0px;
@@ -414,17 +421,17 @@ legend {
     border-radius: 0;
   }
 }
-/* line 399, ../sass/styles.scss */
+/* line 405, ../sass/styles.scss */
 #s-lg-index-guidetype-btn {
   display: none;
 }
 
-/* line 403, ../sass/styles.scss */
+/* line 409, ../sass/styles.scss */
 #tufts_footer {
   padding: 2em;
 }
 
-/* line 410, ../sass/styles.scss */
+/* line 416, ../sass/styles.scss */
 #tufts_contact {
   margin-top: -2em;
   background-color: white;
@@ -433,7 +440,7 @@ legend {
   border-radius: 4px;
   border: 1px solid #5BC0DE;
 }
-/* line 417, ../sass/styles.scss */
+/* line 423, ../sass/styles.scss */
 #tufts_contact ul {
   list-style: none;
   margin-left: 0;
@@ -441,13 +448,13 @@ legend {
   line-height: 2em;
 }
 @media all and (min-width: 700px) {
-  /* line 417, ../sass/styles.scss */
+  /* line 423, ../sass/styles.scss */
   #tufts_contact ul {
     line-height: 1.2em;
   }
 }
 
-/* line 437, ../sass/styles.scss */
+/* line 443, ../sass/styles.scss */
 #s-lg-guide-main:nth-of-type(4) #tufts_search input[type="submit"], #s-lg-tabs-container:nth-of-type(3) #tufts_search input[type="submit"] {
   margin-top: 1.57em;
 }
