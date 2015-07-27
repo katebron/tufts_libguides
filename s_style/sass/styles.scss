@@ -186,14 +186,7 @@ h2.s-lib-box-title{
   }
 }
 
-#s-lg-guide-tabs .s-lg-tabs-side .s-lg-boxnav .list-group-item a:link{
-  color: black;
-  text-shadow: none;
 
-}
-#s-lg-guide-tabs .s-lg-tabs-side .s-lg-boxnav .list-group-item a:visited{
-  color: black;
-}
 //FOR SIDE NAVIGATION
 
 #s-lg-guide-tabs{
@@ -207,6 +200,14 @@ h2.s-lib-box-title{
       a:hover{
        color: white !important;
       }
+      .list-group-item{
+        a{
+          color: black !important;
+        }
+        a:hover{
+          color: black !important;
+        }
+      }
     }
     //make sure that the dropdowns with a white background have black text
     .dropdown{
@@ -215,6 +216,9 @@ h2.s-lib-box-title{
           color: black !important;
         }
         a:hover{
+          color: black !important;
+        }
+        a:visited{
           color: black !important;
         }
       }
@@ -429,6 +433,10 @@ padding: 2em;
       line-height:1.2em;
     }
   }
+}
+//for search box - 
+#s-lg-hp-nav form{
+ background-color: #CCC;
 }
 ///
 //EDIT PAGES only
