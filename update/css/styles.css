@@ -1,4 +1,12 @@
 @import '../pre_existing_css.css';
+#az-search-col-1 #s-lg-sel-az-types, #az-search-col-1 #s-lg-sel-az-vendors {
+  display: none;
+}
+
+#s-lg-az-cols #s-lg-az-popular-div, #s-lg-az-cols #s-lg-az-trials-div {
+  display: none;
+}
+
 ul.list-group.s-lg-boxnav li.list-group-item a {
   color: black !important;
   text-shadow: none !important;
