@@ -1,4 +1,5 @@
 @import '../pre_existing_css.css';
+@import '../mini_preexisting.css';
 
 //requested by CK/R&I
 
@@ -9,8 +10,8 @@
 }
 #s-lg-az-cols{
     #s-lg-az-popular-div, #s-lg-az-trials-div{
-        display: none !important;
-    }
+        display: none;
+      }
 }
 //Imported from Libguides UI
 ul.list-group.s-lg-boxnav li.list-group-item a{
