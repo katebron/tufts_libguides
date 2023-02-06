@@ -4,7 +4,7 @@
 }
 
 #s-lg-az-cols #s-lg-az-popular-div, #s-lg-az-cols #s-lg-az-trials-div {
-  display: none;
+  display: none !important;
 }
 
 ul.list-group.s-lg-boxnav li.list-group-item a {
