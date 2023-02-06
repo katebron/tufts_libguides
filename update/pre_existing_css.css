@@ -1,0 +1,464 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 33, ../sass/_init.scss */
+strong, b {
+  font-weight: bold;
+}
+
+/* line 29, ../sass/styles.scss */
+html {
+  font-size: 100%;
+  /* 3 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* line 10, ../sass/_mixins.scss */
+h1, h2, h3,
+h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* line 38, ../sass/styles.scss */
+h1 {
+  /* Set the font-size and line-height while keeping a proper vertical rhythm. */
+  font-size: 24px;
+  /* Set 1 unit of vertical rhythm on the top and bottom margins. */
+}
+
+/* line 45, ../sass/styles.scss */
+h2 {
+  font-size: 20px;
+}
+
+/* line 49, ../sass/styles.scss */
+h3 {
+  font-size: 16px;
+}
+
+/* line 53, ../sass/styles.scss */
+h4 {
+  font-size: 13.6px;
+}
+
+/* line 57, ../sass/styles.scss */
+h5 {
+  font-size: 12px;
+}
+
+/* line 61, ../sass/styles.scss */
+h6 {
+  font-size: 10.72px;
+}
+
+/* line 67, ../sass/styles.scss */
+body {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-family: sans-serif;
+  font-size: 100%;
+  /* 3 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  line-height: 1.2;
+  background-color: #f5f5f5;
+}
+@media all and (min-width: 750px) {
+  /* line 67, ../sass/styles.scss */
+  body {
+    padding: 0;
+  }
+}
+/* line 79, ../sass/styles.scss */
+body ul {
+  list-style-type: disc;
+  margin-left: 1em;
+}
+/* line 82, ../sass/styles.scss */
+body ul li {
+  margin-bottom: 0.5em;
+}
+
+@media all and (max-width: 750px) {
+  /* line 92, ../sass/styles.scss */
+  #s-lg-guide-main, #lg-guide-header {
+    padding: 1em;
+  }
+}
+/* line 97, ../sass/styles.scss */
+.navbar-fixed-bottom, .navbar-fixed-top {
+  position: relative;
+}
+
+/* line 100, ../sass/styles.scss */
+#tufts_header {
+  background-color: #3172AE;
+  color: white;
+  margin: -1em -1em 0 -1em;
+  padding: 2em 2em 0.25em 3.2em;
+}
+/* line 107, ../sass/styles.scss */
+#tufts_header h1 {
+  font-size: 30px;
+  margin-bottom: 1em;
+  text-shadow: 0px 0px 1px black;
+}
+
+/* line 113, ../sass/styles.scss */
+#tufts_header {
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF293E6B', endColorstr='#FF3172AE');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjEuMCIgeTE9IjAuNSIgeDI9IjAuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzMxNzJhZSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzI5M2U2YiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -moz-linear-gradient(180deg, #3172ae, #293e6b);
+  background-image: -webkit-linear-gradient(180deg, #3172ae, #293e6b);
+  background-image: linear-gradient(-90deg, #3172ae, #293e6b);
+}
+
+/* line 117, ../sass/styles.scss */
+#tufts_header a {
+  font-family: sans-serif;
+  color: white;
+}
+
+/* line 122, ../sass/styles.scss */
+#tufts_links ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+/* line 125, ../sass/styles.scss */
+#tufts_links ul li {
+  display: inline;
+  list-style-type: none !important;
+  text-decoration: none !important;
+  padding-right: 0em;
+}
+/* line 131, ../sass/styles.scss */
+#tufts_links ul li:after {
+  content: ' | ';
+}
+/* line 134, ../sass/styles.scss */
+#tufts_links ul li:first-of-type {
+  padding-left: 0.5em;
+}
+/* line 137, ../sass/styles.scss */
+#tufts_links ul li:last-of-type:after {
+  content: '';
+}
+
+/* line 142, ../sass/styles.scss */
+p {
+  padding: 0.5em 0.25em;
+}
+
+/* line 145, ../sass/styles.scss */
+h2.s-lib-box-title {
+  font-size: 18px !important;
+}
+
+/* line 150, ../sass/styles.scss */
+#s-lg-guide-search-box form {
+  background: transparent;
+}
+
+/************
+* TABS
+**************/
+/* line 158, ../sass/styles.scss */
+#s-lg-tabs-container .nav-stacked a {
+  color: white;
+}
+/* line 162, ../sass/styles.scss */
+#s-lg-tabs-container .nav-tabs, #s-lg-tabs-container .nav-pills {
+  margin-left: 0;
+}
+/* line 165, ../sass/styles.scss */
+#s-lg-tabs-container .nav-tabs a, #s-lg-tabs-container .nav-pills a {
+  text-shadow: 0px 0px 1px black;
+}
+/* line 168, ../sass/styles.scss */
+#s-lg-tabs-container .nav-tabs .active a, #s-lg-tabs-container .nav-pills .active a {
+  text-shadow: 0px 0px 1px black;
+}
+/* line 172, ../sass/styles.scss */
+#s-lg-tabs-container .nav-tabs a:hover, #s-lg-tabs-container .nav-pills a:hover {
+  text-shadow: 0px 0px 1px black;
+}
+
+/* line 180, ../sass/styles.scss */
+.s-lg-subtab-ul a, .s-lg-subtab-ul > a {
+  text-shadow: none !important;
+}
+/* line 183, ../sass/styles.scss */
+.s-lg-subtab-ul a:hover {
+  color: black !important;
+  font-weight: bold;
+}
+
+/* line 196, ../sass/styles.scss */
+#s-lg-guide-tabs .s-lg-tabs-side .s-lg-subtab-ul a, #s-lg-guide-tabs .s-lg-tabs-side .s-lg-subtab-ul > a {
+  text-shadow: none !important;
+  color: white !important;
+}
+/* line 200, ../sass/styles.scss */
+#s-lg-guide-tabs .s-lg-tabs-side .s-lg-subtab-ul a:hover {
+  color: white !important;
+}
+/* line 204, ../sass/styles.scss */
+#s-lg-guide-tabs .s-lg-tabs-side .s-lg-subtab-ul .list-group-item a {
+  color: black !important;
+}
+/* line 207, ../sass/styles.scss */
+#s-lg-guide-tabs .s-lg-tabs-side .s-lg-subtab-ul .list-group-item a:hover {
+  color: black !important;
+}
+/* line 215, ../sass/styles.scss */
+#s-lg-guide-tabs .s-lg-tabs-side .dropdown .s-lg-subtab-ul a {
+  color: black !important;
+}
+/* line 218, ../sass/styles.scss */
+#s-lg-guide-tabs .s-lg-tabs-side .dropdown .s-lg-subtab-ul a:hover {
+  color: black !important;
+}
+/* line 221, ../sass/styles.scss */
+#s-lg-guide-tabs .s-lg-tabs-side .dropdown .s-lg-subtab-ul a:visited {
+  color: black !important;
+}
+
+/***
+* MISC 
+****/
+/* line 233, ../sass/styles.scss */
+.label-info, .btn-info {
+  color: black;
+}
+/* line 235, ../sass/styles.scss */
+.label-info a, .btn-info a {
+  color: black;
+}
+/* line 238, ../sass/styles.scss */
+.label-info a:hover, .btn-info a:hover {
+  text-shadow: 0px 0px 1px black;
+}
+
+/* line 244, ../sass/styles.scss */
+.s-lib-box-content {
+  word-wrap: break-word;
+}
+
+/* line 248, ../sass/styles.scss */
+.s-lg-hp-btn-section {
+  margin-top: 0.25em;
+}
+
+/* line 253, ../sass/styles.scss */
+.fa-flickr, .fa-twitter, .fa-facebook, .fa-bookmark {
+  color: #DB6B0F;
+}
+
+/* line 257, ../sass/styles.scss */
+div[id*="s-lib-profile-email-"] .label-info {
+  background-color: #E3E3E3;
+  box-shadow: inset 0 0 1px 1px #EAEAEA;
+  border: 1px solid #BBB;
+}
+
+/* line 262, ../sass/styles.scss */
+.label-info[href]:focus, .label-info[href]:hover {
+  background-color: #D3D3D3;
+  color: black;
+}
+
+/* line 266, ../sass/styles.scss */
+a.label-info {
+  font-size: 12px !important;
+  padding: 0.75em 4.75em;
+}
+
+@media all and (min-width: 1000px) and (max-width: 1200px) {
+  /* line 272, ../sass/styles.scss */
+  #s-lg-guide-main #s-lg-col-2 a.label-info {
+    padding: 0.75em 2em;
+  }
+}
+
+/* line 283, ../sass/styles.scss */
+.s-lib-profile-subjects a:first-of-type {
+  padding-top: 1em;
+}
+
+/* line 288, ../sass/styles.scss */
+.wide_list ul {
+  list-style-type: none;
+  margin-left: -1em;
+}
+
+/* line 294, ../sass/styles.scss */
+.s-lib-featured-profile-image {
+  height: 160px;
+  width: 160px;
+}
+
+/************
+* TABLES
+************/
+/* line 302, ../sass/styles.scss */
+table {
+  border: thin solid #000;
+  border-top: thin solid #000 !important;
+  background: #FFFFFF;
+  vertical-align: top;
+  width: 100%;
+}
+/* line 308, ../sass/styles.scss */
+table th {
+  font-weight: bold;
+  text-align: center;
+  vertical-align: bottom;
+  padding: 2px;
+}
+/* line 315, ../sass/styles.scss */
+table td {
+  background: #FFFFFF;
+  text-align: left;
+  vertical-align: middle;
+  padding: 4px;
+  border-top: 1px solid #000;
+  font-size: small;
+  font-weight: normal;
+}
+/* line 324, ../sass/styles.scss */
+table .rowhead {
+  font-weight: bold;
+  text-align: left;
+  padding-left: 4px;
+  font-size: small;
+}
+/* line 331, ../sass/styles.scss */
+table tr.alt {
+  background-color: #c4e0f5;
+}
+/* line 336, ../sass/styles.scss */
+table .beige td {
+  text-align: center;
+}
+/* line 340, ../sass/styles.scss */
+table .beigeLeft {
+  text-align: left;
+}
+/* line 342, ../sass/styles.scss */
+table .beigeLeft tr.altRow td {
+  background-color: #e3ecf6;
+}
+/* line 345, ../sass/styles.scss */
+table .beigeLeft td {
+  text-align: left;
+}
+
+/****
+* FORMS
+******/
+/* line 353, ../sass/styles.scss */
+form {
+  background-color: #eee;
+  padding: 0.25em 0.5em 1em 0.5em;
+}
+
+/* line 359, ../sass/styles.scss */
+#s-lg-guide-search-box form {
+  background: transparent;
+}
+
+/* line 364, ../sass/styles.scss */
+#tufts_search fieldset {
+  position: relative;
+}
+/* line 367, ../sass/styles.scss */
+#tufts_search input[type="text"] {
+  width: 99%;
+  height: 2em;
+  z-index: -1;
+}
+/* line 372, ../sass/styles.scss */
+#tufts_search input[type="submit"] {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 2.5em;
+  height: 2em;
+  z-index: 5;
+  color: white;
+  background-color: #3172AE;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+/* line 385, ../sass/styles.scss */
+#tufts_search .more {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: -1.2em;
+  font-size: 11px;
+}
+
+/* line 393, ../sass/styles.scss */
+legend {
+  font-size: inherit;
+}
+
+@-moz-document url-prefix() {
+  /* line 400, ../sass/styles.scss */
+  #tufts_search input[type="submit"] {
+    margin-top: 0;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+}
+/* line 409, ../sass/styles.scss */
+#s-lg-index-guidetype-btn {
+  display: none;
+}
+
+/* line 413, ../sass/styles.scss */
+#tufts_footer {
+  padding: 2em;
+}
+
+#tufts_contact {
+  margin-top: -2em;
+  background-color: white;
+  box-shadow: 1px 1px 1px gray;
+  padding: 0.25em 0 2em 1em;
+  border-radius: 4px;
+  border: 1px solid #5BC0DE;
+}
+
+#tufts_contact ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  line-height: 2em;
+}
+@media all and (min-width: 700px) {
+  #tufts_contact ul {
+    line-height: 1.2em;
+  }
+}
+
+/* line 438, ../sass/styles.scss */
+#s-lg-hp-nav form {
+  background-color: #CCC;
+}
+
+/* line 451, ../sass/styles.scss */
+#s-lg-guide-main:nth-of-type(4) #tufts_search input[type="submit"], #s-lg-tabs-container:nth-of-type(3) #tufts_search input[type="submit"] {
+  margin-top: 1.57em;
+}
