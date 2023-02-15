@@ -4,12 +4,12 @@
 
 #az-search-col-1{
     #s-lg-sel-az-types, #s-lg-sel-az-vendors{
-        display: none;
+        display: none !important;
     }
 }
 #s-lg-az-cols{
     #s-lg-az-popular-div, #s-lg-az-trials-div{
-        display: none;
+        display: none !important;
       }
 }
 //Imported from Libguides UI
