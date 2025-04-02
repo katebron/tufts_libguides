@@ -1,4 +1,63 @@
 @import '../mini_preexisting.css';
+.tufts_header_wrapper {
+  background-color: #2a5c89;
+  margin-left: -15px;
+  margin-right: -15px;
+  border-bottom: 1px solid #fff;
+}
+.tufts_header_wrapper #tufts_header {
+  padding: 1em 2em 0.5em 2em;
+  padding-top: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+.tufts_header_wrapper #tufts_header svg {
+  width: 8em;
+  margin-bottom: -0.3em;
+}
+.tufts_header_wrapper #tufts_header .lib-title {
+  font-size: 2em;
+  box-shadow: -3px -1px 0 -2px rgba(255, 255, 255, 0.6980392157);
+  margin: 0.3125rem 0.9375rem 0.3125rem 0.625rem;
+  padding-left: 1rem;
+}
+.tufts_header_wrapper #tufts_header #tufts_links ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.tufts_header_wrapper #tufts_header #tufts_links ul li {
+  margin-right: 1em;
+  font-size: 1.5em;
+}
+.tufts_header_wrapper #tufts_header #tufts_links ul li a {
+  color: white;
+  text-decoration: none;
+}
+.tufts_header_wrapper #tufts_header #tufts_links ul li a:hover {
+  text-decoration: underline;
+}
+
+.rg-header-wrap {
+  background-color: #3172AE;
+  margin-left: -15px;
+  margin-right: -15px;
+  color: white;
+}
+.rg-header-wrap .rg-header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2em;
+}
+
 #az-search-col-1 #s-lg-sel-az-types, #az-search-col-1 #s-lg-sel-az-vendors {
   display: none !important;
 }
