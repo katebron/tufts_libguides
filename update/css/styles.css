@@ -137,7 +137,7 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
-#hirsh_header img {
+#hirsh_header svg {
   height: 2.25em;
   margin-top: 0.25em;
   margin-left: 0.25em;
@@ -159,12 +159,20 @@ body {
 #s-lg-guide-header h1, #s-lib-public-header h1 {
   font-size: 38px;
 }
-#s-lg-guide-header #s-lg-guide-header-search, #s-lib-public-header #s-lg-guide-header-search {
-  margin-top: -2.5em;
+@media all and (min-width: 1200px) {
+  #s-lg-guide-header #s-lg-guide-header-search, #s-lib-public-header #s-lg-guide-header-search {
+    margin-top: -2.5em;
+  }
 }
 #s-lg-guide-header #s-lg-guide-header-search #s-lg-guide-search-box, #s-lib-public-header #s-lg-guide-header-search #s-lg-guide-search-box {
-  width: 600px;
+  width: 100%;
   font: 18px;
+}
+@media all and (min-width: 1200px) {
+  #s-lg-guide-header #s-lg-guide-header-search #s-lg-guide-search-box, #s-lib-public-header #s-lg-guide-header-search #s-lg-guide-search-box {
+    display: block;
+    width: 600px;
+  }
 }
 #s-lg-guide-header #s-lg-guide-header-search #s-lg-guide-search-box .input-group-sm > .form-control,
 #s-lg-guide-header #s-lg-guide-header-search #s-lg-guide-search-box .input-group-btn:last-child > .btn, #s-lib-public-header #s-lg-guide-header-search #s-lg-guide-search-box .input-group-sm > .form-control,

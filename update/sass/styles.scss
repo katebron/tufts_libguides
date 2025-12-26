@@ -133,12 +133,12 @@ body{
 #hirsh_header{
   max-width: 1400px;
 
-  	background: #293e6b;
+  background: #293e6b;
 	padding: 0.5em 0;	
 	color: #fff;
   margin-right: auto;
   margin-left: auto;
-  img{
+  svg{
     height: 2.25em;
     margin-top: 0.25em;
     margin-left: 0.25em;
@@ -162,12 +162,19 @@ body{
     font-size: 38px;
   }
   #s-lg-guide-header-search{
-    margin-top: -2.5em;
+    @media all and (min-width: 1200px){
+      margin-top: -2.5em;
+    }
+    
   }
   #s-lg-guide-header-search{
    
     #s-lg-guide-search-box{
+      width: 100%;
+      @media all and (min-width: 1200px){
+        display: block;
         width: 600px;
+      }  
         font: 18px;
         .input-group-sm>.form-control, 
         .input-group-btn:last-child>.btn{
