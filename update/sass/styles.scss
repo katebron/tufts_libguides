@@ -241,7 +241,11 @@ body{
 }
 .s-lg-public-search-field{
   .input-group{
-    width: 600px;
+    width: 100%;
+    @media all and (min-width: 1200px){
+         width: 600px;
+    }
+ 
     margin-right: -5em;
     input{
     font-size: 18px;

@@ -238,8 +238,13 @@ body {
 }
 
 .s-lg-public-search-field .input-group {
-  width: 600px;
+  width: 100%;
   margin-right: -5em;
+}
+@media all and (min-width: 1200px) {
+  .s-lg-public-search-field .input-group {
+    width: 600px;
+  }
 }
 .s-lg-public-search-field .input-group input {
   font-size: 18px;
