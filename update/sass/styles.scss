@@ -173,7 +173,8 @@ body{
       width: 100%;
       @media all and (min-width: 1200px){
         display: block;
-        width: 600px;
+        width: 40%;
+        float: right;
       }  
         font: 18px;
         .input-group-sm>.form-control, 
