@@ -166,7 +166,7 @@ body {
 }
 #s-lg-guide-header #s-lg-guide-header-search #s-lg-guide-search-box, #s-lib-public-header #s-lg-guide-header-search #s-lg-guide-search-box {
   width: 100%;
-  margin-left: 0;
+  margin-left: 0 !important;
   font: 18px;
 }
 @media all and (min-width: 1200px) {
