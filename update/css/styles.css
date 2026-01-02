@@ -44,7 +44,7 @@ body {
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
   background-color: #293e6b;
   color: white;
-  border-radius: none;
+  border-radius: 0;
 }
 
 .nav-tabs > li > a, .nav-pills > li > a {
@@ -102,6 +102,7 @@ body {
 #s-lg-guide-header, #s-lib-public-header {
   margin: 2em auto;
   max-width: 1400px;
+  position: relative;
 }
 #s-lg-guide-header h1, #s-lib-public-header h1 {
   font-size: 38px;
@@ -118,9 +119,11 @@ body {
 }
 @media all and (min-width: 1200px) {
   #s-lg-guide-header #s-lg-guide-header-search #s-lg-guide-search-box, #s-lib-public-header #s-lg-guide-header-search #s-lg-guide-search-box {
+    position: absolute;
+    top: 0;
+    right: 0;
     display: block;
     width: 40%;
-    float: right;
   }
 }
 #s-lg-guide-header #s-lg-guide-header-search #s-lg-guide-search-box .input-group-sm > .form-control,
@@ -140,15 +143,20 @@ body {
 #s-lib-bc .breadcrumb a {
   color: #293e6b !important;
 }
+@media all and (min-width: 1000px) {
+  #s-lib-bc .breadcrumb {
+    max-width: 50%;
+  }
+}
 
 #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop {
   display: none;
 }
 
-.s-lg-guide-tabs .caret {
-  border-top: 10px pink !important;
-  border-right: 10px pink !important;
-  border-left: 10px pink !important;
+#s-lg-tabs-container .nav-tabs > li > a, #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link, #s-lg-tabs-container .nav-tabs > .active > a {
+  border-radius: 0;
+  margin: 2px;
+  padding: 4px 15px;
 }
 
 .list-group-item {

@@ -45,7 +45,7 @@ body{
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
  background-color: #293e6b;
  color: white;
- border-radius: none;
+ border-radius: 0;
 }
 .nav-tabs>li>a, .nav-pills>li>a{
   color: #293e6b;
@@ -103,6 +103,7 @@ body{
 #s-lg-guide-header, #s-lib-public-header{
   margin: 2em auto;
   max-width: 1400px;
+  position: relative;
   h1{
     font-size: 38px;
   }
@@ -118,9 +119,11 @@ body{
       width: 100%;
       margin-left: 0 !important;
       @media all and (min-width: 1200px){
+        position: absolute;
+        top: 0;
+        right: 0;
         display: block;
         width: 40%;
-        float: right;
       }  
         font: 18px;
         .input-group-sm>.form-control, 
@@ -143,20 +146,22 @@ body{
   a{
      color: #293e6b !important;
   }
+  @media all and (min-width: 1000px){
+    max-width: 50%;
+  }
 }
 //DOESNT WORK
 #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-drop{
   display: none;
 }
 //end doesnt work 
-
-.s-lg-guide-tabs{
-  .caret{
-    border-top: 10px pink !important;
-    border-right: 10px pink !important;
-    border-left: 10px pink !important;
-  }
+#s-lg-tabs-container .nav-tabs > li > a, #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link, #s-lg-tabs-container .nav-tabs > .active > a{
+  border-radius: 0;
+  margin: 2px;
+  padding: 4px 15px;
 }
+
+
 .list-group-item{
   border: none;
 }
