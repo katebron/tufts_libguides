@@ -1,0 +1,35 @@
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/katebron/tufts_libguides@f3207f6/update/css/styles.css">
+<link rel="stylesheet" href="https://use.typekit.net/lvm2bzl.css">
+<script src="https://www.library.tufts.edu/ltsWebComponentTrial/lts-branding-component/header.js"></script>
+  <script src="https://www.library.tufts.edu/ltsWebComponentTrial/lts-branding-component/headeronelevel.js"></script>
+<script src=https://www.library.tufts.edu/ltsWebComponentTrial/lts-branding-component/footer.js></script>
+<style>
+.rg-home{
+  display: block;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-shadow: 0 0 1px #000;
+  font-weight: 700;
+}
+a:focus-visible {
+  outline-offset: 0.25em;
+  outline-width: 0.25em;
+  outline-color: currentColor;
+}
+#s-lg-tabs-container .nav-pills>li>a:focus, #s-lg-tabs-container .nav-tabs>li>a:focus {
+    color: #fff !important;
+}
+#s-lg-tabs-container .nav-tabs > li > a:focus, #s-lg-tabs-container .nav-tabs > li > a:focus, #s-lg-tabs-container .nav-pills > li > a:focus, #s-lg-tabs-container .nav-pills > li > a:focus {
+    background-color: #002354;
+}
+lts-header-one-level{
+  margin-left: -15px;
+}
+#s-lg-tabs-container .nav-tabs > li > a, #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link, #s-lg-tabs-container .nav-tabs > .active > a{
+  border-radius: 0;
+  margin: 2px;
+  padding: 4px 15px;
+}
+
+
+</style>

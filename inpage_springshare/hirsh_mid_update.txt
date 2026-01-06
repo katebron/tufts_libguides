@@ -1,0 +1,206 @@
+<script src="https://www.library.tufts.edu/ltsWebComponentTrial/lts-branding-component/headercoloropt.js"></script>
+ <script src="https://www.library.tufts.edu/ltsWebComponentTrial/lts-branding-component/hirsh_lg_subheader.js"></script>
+ <script src="https://www.library.tufts.edu/ltsWebComponentTrial/lts-branding-component/footer.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/katebron/tufts_libguides@f3207f6/update/css/styles.css">
+<style>
+/* FONT */
+
+.h3, h3 {
+font-size: 14px;
+font-weight: bold;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.h4, h4 {
+font-size: 12px;
+font-weight: bold;
+text-transform: uppercase;
+color: #293e6b;
+}
+/* HEADER*/
+.container{
+        padding-left: 0;
+        padding-right: 0;
+}
+
+#hirsh_banner_alert{
+background-color: #ffcd00;
+padding-left: 35px;
+padding-right: 35px;
+line-height: 35px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#hirsh_banner_alert p{
+  margin: 0;
+  font-size: 14px;
+}
+
+#hirsh_banner_alert a:link{
+  text-decoration: none;
+}
+#hirsh_banner_alert a:link, #hirsh_banner_alert a:hover, #hirsh_banner_alert a:visited{
+  color: #000;
+}
+#hirsh_banner_alert p a:hover{
+  text-decoration: underline;
+}
+
+/*Tabs*/
+#s-lg-tabs-container .nav .dropdown-toggle .caret {
+  border-top-color: #293e6b;
+}
+#s-lg-tabs-container .nav a:hover.dropdown-toggle .caret {
+  border-top-color: #ffffff;
+}
+#s-lg-tabs-container .nav-tabs > .active > a, #s-lg-tabs-container .nav-pills > .active > a {
+  color: #fff;
+  background-color: #293e6b;
+}
+#s-lg-tabs-container .nav-tabs > li > a, #s-lg-tabs-container .nav-pills > li > a {
+  background-color: #ffffff;
+  color: #293e6b;
+}
+#s-lg-tabs-container .nav-tabs > li > a:hover, #s-lg-tabs-container .nav-pills > li > a:hover,#s-lg-tabs-container .nav-tabs > .active > a:hover, #s-lg-tabs-container .nav-pills > .active > a:hover,
+#s-lg-tabs-container .nav-tabs > li > a:focus, #s-lg-tabs-container .nav-pills > li > a:focus,#s-lg-tabs-container .nav-tabs > .active > a:focus, #s-lg-tabs-container .nav-pills > .active > a:focus
+{
+  background-color: #293e6b;
+  color: #ffffff;
+}
+
+/*Alert Boxes*/
+#s-lg-box-27749588 h2,  #s-lg-box-27910627 h2 {
+background-color: yellow;
+color: #293e6b;
+}
+/*Content*/
+.s-lib-box{
+background-color: #fff !important;
+}
+.s-lib-box-std .s-lg-edit-link {
+   color: #fff;
+  text-shadow: 0 1px 0 #000;
+}
+.close {
+  color: #76b0bc;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: inherit;
+}
+.s-lib-box-content{
+	background: #ffffff;
+}
+/*Contact Us */
+ .hirsh_contact{
+	background: #ffffff;
+	color: #293e6b;
+	padding: 15px;
+        margin: 0 auto;
+
+}
+.hirsh_contact ul li{
+    display: flex;
+    align-items: center;
+}
+.hirsh_contact h2{
+	color: #293e6b;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px; 
+	padding: 0px;	
+}
+.hirsh_contact ul{
+	margin: 0;
+	padding: 0;	
+}
+ .hirsh_contact ul li{
+	list-style: none;
+	border-bottom: solid 1px #76b0bc;
+	padding: 12.5px 0;
+	margin: 0;
+	vertical-align: middle;
+}
+.hirsh_contact ul li img{
+	margin: 0 10px 0 0;
+	vertical-align: top;
+}
+.hirsh_contact ul li.last{
+	border-bottom: none;
+}
+.hirsh_contact ul li a{
+	color: #293e6b;	
+	vertical-align: middle;
+	text-decoration: none;
+}
+/*Hirsh Desk Hours*/
+.hirsh_hours{
+  width: 240px;
+  margin: 0 auto;
+}
+/*Profile */
+.label-info {
+  background-color: #76b0bc;
+}
+.label-info[href]:focus, .label-info[href]:hover {
+  background-color: #293e6b;
+}
+a.label.label-info {
+  font-size: 1.2em !important;
+}
+/*Chat*/
+div#libchat_ab39e9e104d7ab09eb2c63c639ecc799{
+  max-width: 240px;
+}
+/*Responsive Elements*/
+@media screen and (max-width: 991px){
+#hirsh_header h1 {
+    float: left;
+	clear: both;
+	margin-bottom: 10px;
+}
+#hirsh_header a#hirshlogo{
+	float: left;
+	clear: both;
+}	
+}
+@media screen and (max-width: 300px),  screen and (min-width: 990px) and (max-width: 1200px) {
+ .hirsh_contact{
+	max-width: 95% !important;
+}
+/*Chat*/
+div#lci_chat_load.lci_chat_load{
+width: 240px;
+}
+}
+@media screen and (max-width: 450px){
+#hirsh_header img{
+width: 100% !important;
+}
+}
+
+/*Hide Subject Homepage Links*/
+#s-lib-public-main .alert.alert.alert-info.margin-top-med {
+display: none;
+}
+/*Hide Title in LibCal  Widgets*/
+h3.s-lc-ea-h3 {
+    display: none;
+}
+a:focus-visible {
+  outline-offset: 0.25em;
+  outline-width: 0.25em;
+  outline-color: currentColor;
+}
+
+</style>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YZW7S4L6MN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YZW7S4L6MN');
+</script>
