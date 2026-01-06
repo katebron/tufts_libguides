@@ -173,6 +173,9 @@ body {
 
 .nav > li > a:hover, .nav > li > a:focus {
   background-color: #293e6b;
+  color: white;
+  border: 1px solid #293e6b !important;
+  outline-offset: 2px !important;
 }
 
 #s-lib-admin-main .dataTables_paginate > ul.pagination > li.paginate_button:not(.disabled):not(.active) > a, #s-lib-public-main .dataTables_paginate > ul.pagination > li.paginate_button:not(.disabled):not(.active) > a, .s-lg-link-contrast, .ui-widget-content a, a {
