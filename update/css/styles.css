@@ -340,4 +340,28 @@ ul.list-group.s-lg-boxnav li.list-group-item a {
   margin-bottom: 0;
 }
 
+a:focus-visible {
+  outline-offset: 0.25em;
+  outline-width: 0.25em;
+  outline-color: currentColor;
+}
+
+#s-lg-tabs-container .nav-pills > li > a:focus, #s-lg-tabs-container .nav-tabs > li > a:focus {
+  color: #fff !important;
+}
+
+#s-lg-tabs-container .nav-tabs > li > a:focus, #s-lg-tabs-container .nav-tabs > li > a:focus, #s-lg-tabs-container .nav-pills > li > a:focus, #s-lg-tabs-container .nav-pills > li > a:focus {
+  background-color: #002354;
+}
+
+lts-header-one-level {
+  margin-left: -15px;
+}
+
+#s-lg-tabs-container .nav-tabs > li > a, #s-lg-tabs-container .nav-tabs > li > a.s-lg-tab-top-link, #s-lg-tabs-container .nav-tabs > .active > a {
+  border-radius: 0;
+  margin: 2px;
+  padding: 4px 15px;
+}
+
 /*# sourceMappingURL=styles.css.map */
