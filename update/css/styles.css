@@ -364,4 +364,38 @@ lts-header-one-level {
   padding: 4px 15px;
 }
 
+.hirsh_contact ul {
+  margin: 0;
+  padding: 0;
+}
+
+.hirsh_contact ul li {
+  list-style: none;
+  border-bottom: solid 1px #76b0bc;
+  padding: 12.5px 0;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.hirsh_contact ul li img {
+  margin: 0 10px 0 0;
+  vertical-align: top;
+}
+
+.hirsh_contact ul li.last {
+  border-bottom: none;
+}
+
+.hirsh_contact ul li a {
+  color: #293e6b;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+/*Hirsh Desk Hours*/
+.hirsh_hours {
+  width: 240px;
+  margin: 0 auto;
+}
+
 /*# sourceMappingURL=styles.css.map */
