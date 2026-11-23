@@ -383,3 +383,62 @@ lts-header-one-level{
   width: 240px;
   margin: 0 auto;
 }
+/* transferred from inline for BS5 */
+:root {
+  --proxima: 'proxima-nova', serif;
+ }
+body {
+  font-family: var(--proxima);
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: var(--proxima);
+}
+#s-lg-guide-header-info h1, .s-lib-header h{
+  margin-top: 1em;
+ font-family: var(--proxima);
+}
+select#searchparam{
+  height: auto;
+}
+lts-header-one-level::part(lts-content){
+@media all and (min-width: 640px) and (max-width: 1460px){
+    max-width: 90vw;
+ }
+}
+lts-footer::part(lts-footer-content){
+ @media all and (min-width: 640px) and (max-width: 1460px){
+    margin-left: 2em;
+  }
+}
+/* override the font-family for the side-column headers on the homepage, A-Z page, subject pages, profile pages, and E-Reserves pages*/
+.s-lib-public-side-header h2, #s-lg-az-result-count, #s-lg-index-list-header, .public-collapsible-box h2.accordion-header  > button {
+   font-family: var(--proxima);
+}
+/* make the side buttons take up full width of sidebar*/
+.s-lg-tabs-side ul.nav-stacked{
+  display: block;
+}
+.s-lib-profile-email a {
+    font-size: 1em;
+   background-color: #293e6b !important; 
+  width: 100%;
+}
+.s-lib-profile-widget, .s-lib-profile-container{
+  button{
+    background-color: #293e6b !important;  
+    color: white !important;
+    font-size: 1em;
+    font-weight: bold !important;
+    border: none !important;
+    border-radius: 0.4em !important;
+   width: 100% !important;
+  padding: 12px 20px !important;
+ }
+}
+#s-lg-guide-search-box button{
+   background-color: #293e6b;  
+    color: white;
+    height: 3em;
+    font-size: 18px;
+}
