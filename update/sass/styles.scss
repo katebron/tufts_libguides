@@ -442,3 +442,14 @@ lts-footer::part(lts-footer-content){
     height: 3em;
     font-size: 18px;
 }
+/*when contact us/ask us in in main column, make sure its not too big */
+.col-md-12 {
+
+  .hirsh_contact, .hirsh_hours, .s-lg-widget{
+    max-width: 400px;
+  }
+  .hirsh_hours{
+    margin: 0;
+    width: auto; 
+  }
+}

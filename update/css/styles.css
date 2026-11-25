@@ -466,4 +466,13 @@ select#searchparam {
   font-size: 18px;
 }
 
+/*when contact us/ask us in in main column, make sure its not too big */
+.col-md-12 .hirsh_contact, .col-md-12 .hirsh_hours, .col-md-12 .s-lg-widget {
+  max-width: 400px;
+}
+.col-md-12 .hirsh_hours {
+  margin: 0;
+  width: auto;
+}
+
 /*# sourceMappingURL=styles.css.map */
